@@ -4,8 +4,6 @@ from flask_cors import CORS
 from dotenv import load_dotenv, find_dotenv
 import os
 
-# openai.api_key = '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'  # Replace with your actual API key
-
 app = Flask(__name__)
 CORS(app)
 
