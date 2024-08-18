@@ -1,0 +1,31 @@
+{
+  "build": "mkl",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\raksh\\anaconda_main\\pkgs\\_tflow_select-2.3.0-mkl",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "_tflow_select-2.3.0-mkl.conda",
+  "license": "",
+  "link": {
+    "source": "C:\\Users\\raksh\\anaconda_main\\pkgs\\_tflow_select-2.3.0-mkl",
+    "type": 1
+  },
+  "md5": "f72a007f439f0f7f06ffd20a6aac6ab2",
+  "name": "_tflow_select",
+  "package_tarball_full_path": "C:\\Users\\raksh\\anaconda_main\\pkgs\\_tflow_select-2.3.0-mkl.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4138659712ac63381ea48686597dc50bfe19971d8d93093bf1285116a19618b7",
+  "size": 3422,
+  "subdir": "win-64",
+  "timestamp": 1538709809000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/_tflow_select-2.3.0-mkl.conda",
+  "version": "2.3.0"
+}

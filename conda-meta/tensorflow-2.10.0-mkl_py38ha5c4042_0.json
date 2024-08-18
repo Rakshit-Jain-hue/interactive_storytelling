@@ -1,0 +1,37 @@
+{
+  "build": "mkl_py38ha5c4042_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "_tflow_select 2.3.0 mkl",
+    "python 3.8.*",
+    "tensorboard 2.10.*",
+    "tensorflow-base 2.10.0 mkl_py38h6a7f48e_0",
+    "tensorflow-estimator 2.10.*"
+  ],
+  "extracted_package_dir": "C:\\Users\\raksh\\anaconda_main\\pkgs\\tensorflow-2.10.0-mkl_py38ha5c4042_0",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "tensorflow-2.10.0-mkl_py38ha5c4042_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\raksh\\anaconda_main\\pkgs\\tensorflow-2.10.0-mkl_py38ha5c4042_0",
+    "type": 1
+  },
+  "md5": "e3c6fbb22e5f2a283033833c55b3df3f",
+  "name": "tensorflow",
+  "package_tarball_full_path": "C:\\Users\\raksh\\anaconda_main\\pkgs\\tensorflow-2.10.0-mkl_py38ha5c4042_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "tensorflow",
+  "sha256": "446d35dfb698e4cdf9c17949f9cb2afd2d1062d635af767a8fd2c31b0201118c",
+  "size": 4373,
+  "subdir": "win-64",
+  "timestamp": 1670626113000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/tensorflow-2.10.0-mkl_py38ha5c4042_0.conda",
+  "version": "2.10.0"
+}

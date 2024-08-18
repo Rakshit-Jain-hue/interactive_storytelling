@@ -1,0 +1,14 @@
+prefix=C:/Users/raksh/anaconda_main/envs/interactive_storytelling/Library
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: hdf5
+Description: HDF5 (Hierarchical Data Format 5) Software Library
+Version: 1.14.0
+
+Cflags: -I${includedir}
+Libs: -L${libdir}  -lhdf5
+Requires: 
+Libs.private:  -lshlwapi -lC:/Users/raksh/anaconda_main/envs/interactive_storytelling/Library/lib/libcurl.lib -lC:/Users/raksh/anaconda_main/envs/interactive_storytelling/Library/lib/libssl.lib -lC:/Users/raksh/anaconda_main/envs/interactive_storytelling/Library/lib/libcrypto.lib -lC:/Users/raksh/anaconda_main/envs/interactive_storytelling/Library/lib/z.lib -lC:/Users/raksh/anaconda_main/envs/interactive_storytelling/Library/lib/szip.lib 
+Requires.private: 

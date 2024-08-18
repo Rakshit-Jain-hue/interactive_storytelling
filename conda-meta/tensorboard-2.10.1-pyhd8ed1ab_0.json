@@ -1,0 +1,3895 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "absl-py >=0.4",
+    "google-auth >=1.6.3,<3",
+    "google-auth-oauthlib >=0.4.1,<0.5",
+    "grpcio >=1.24.3",
+    "markdown >=2.6.8",
+    "numpy >=1.12.0",
+    "protobuf >=3.9.2",
+    "python >=3.2",
+    "requests >=2.21.0,<3",
+    "setuptools >=41.0.0",
+    "six >=1.10.0",
+    "tensorboard-data-server >=0.6.0,<0.7.0",
+    "tensorboard-plugin-wit >=1.6.0",
+    "werkzeug >=1.0.1",
+    "wheel >=0.26"
+  ],
+  "extracted_package_dir": "C:\\Users\\raksh\\anaconda_main\\pkgs\\tensorboard-2.10.1-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/tensorboard-2.10.1.dist-info/INSTALLER",
+    "Lib/site-packages/tensorboard-2.10.1.dist-info/LICENSE",
+    "Lib/site-packages/tensorboard-2.10.1.dist-info/METADATA",
+    "Lib/site-packages/tensorboard-2.10.1.dist-info/RECORD",
+    "Lib/site-packages/tensorboard-2.10.1.dist-info/REQUESTED",
+    "Lib/site-packages/tensorboard-2.10.1.dist-info/WHEEL",
+    "Lib/site-packages/tensorboard-2.10.1.dist-info/direct_url.json",
+    "Lib/site-packages/tensorboard-2.10.1.dist-info/entry_points.txt",
+    "Lib/site-packages/tensorboard-2.10.1.dist-info/top_level.txt",
+    "Lib/site-packages/tensorboard/__init__.py",
+    "Lib/site-packages/tensorboard/_vendor/__init__.py",
+    "Lib/site-packages/tensorboard/_vendor/bleach/__init__.py",
+    "Lib/site-packages/tensorboard/_vendor/bleach/callbacks.py",
+    "Lib/site-packages/tensorboard/_vendor/bleach/encoding.py",
+    "Lib/site-packages/tensorboard/_vendor/bleach/linkifier.py",
+    "Lib/site-packages/tensorboard/_vendor/bleach/sanitizer.py",
+    "Lib/site-packages/tensorboard/_vendor/bleach/utils.py",
+    "Lib/site-packages/tensorboard/_vendor/bleach/version.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/__init__.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/_ihatexml.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/_inputstream.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/_tokenizer.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/_trie/__init__.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/_trie/_base.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/_trie/py.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/_utils.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/constants.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__init__.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/alphabeticalattributes.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/base.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/inject_meta_charset.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/lint.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/optionaltags.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/sanitizer.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/whitespace.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/html5parser.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/serializer.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treeadapters/__init__.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treeadapters/genshi.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treeadapters/sax.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/__init__.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/base.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/dom.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/etree.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/etree_lxml.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__init__.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/base.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/dom.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/etree.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/etree_lxml.py",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/genshi.py",
+    "Lib/site-packages/tensorboard/_vendor/webencodings/__init__.py",
+    "Lib/site-packages/tensorboard/_vendor/webencodings/labels.py",
+    "Lib/site-packages/tensorboard/_vendor/webencodings/mklabels.py",
+    "Lib/site-packages/tensorboard/_vendor/webencodings/x_user_defined.py",
+    "Lib/site-packages/tensorboard/assets.py",
+    "Lib/site-packages/tensorboard/auth.py",
+    "Lib/site-packages/tensorboard/backend/__init__.py",
+    "Lib/site-packages/tensorboard/backend/application.py",
+    "Lib/site-packages/tensorboard/backend/client_feature_flags.py",
+    "Lib/site-packages/tensorboard/backend/empty_path_redirect.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/__init__.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/data_ingester.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/data_provider.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/directory_loader.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/directory_watcher.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/event_accumulator.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/event_file_inspector.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/event_file_loader.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/event_multiplexer.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/io_wrapper.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/plugin_asset_util.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/plugin_event_accumulator.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/plugin_event_multiplexer.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/reservoir.py",
+    "Lib/site-packages/tensorboard/backend/event_processing/tag_types.py",
+    "Lib/site-packages/tensorboard/backend/experiment_id.py",
+    "Lib/site-packages/tensorboard/backend/experimental_plugin.py",
+    "Lib/site-packages/tensorboard/backend/http_util.py",
+    "Lib/site-packages/tensorboard/backend/json_util.py",
+    "Lib/site-packages/tensorboard/backend/path_prefix.py",
+    "Lib/site-packages/tensorboard/backend/process_graph.py",
+    "Lib/site-packages/tensorboard/backend/security_validator.py",
+    "Lib/site-packages/tensorboard/compat/__init__.py",
+    "Lib/site-packages/tensorboard/compat/proto/__init__.py",
+    "Lib/site-packages/tensorboard/compat/proto/allocation_description_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/api_def_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/attr_value_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/cluster_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/config_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/coordination_config_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/cost_graph_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/cpp_shape_inference_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/debug_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/event_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/full_type_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/function_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/graph_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/meta_graph_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/node_def_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/op_def_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/resource_handle_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/rewriter_config_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/saved_object_graph_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/saver_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/step_stats_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/struct_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/summary_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/tensor_description_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/tensor_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/tensor_shape_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/tfprof_log_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/trackable_object_graph_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/types_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/variable_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/verifier_config_pb2.py",
+    "Lib/site-packages/tensorboard/compat/proto/versions_pb2.py",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/__init__.py",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/app.py",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/compat/__init__.py",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/compat/v1/__init__.py",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/error_codes.py",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/errors.py",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/flags.py",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/io/__init__.py",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/pywrap_tensorflow.py",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/tensor_shape.py",
+    "Lib/site-packages/tensorboard/context.py",
+    "Lib/site-packages/tensorboard/data/__init__.py",
+    "Lib/site-packages/tensorboard/data/experimental/__init__.py",
+    "Lib/site-packages/tensorboard/data/experimental/base_experiment.py",
+    "Lib/site-packages/tensorboard/data/experimental/experiment_from_dev.py",
+    "Lib/site-packages/tensorboard/data/experimental/utils.py",
+    "Lib/site-packages/tensorboard/data/grpc_provider.py",
+    "Lib/site-packages/tensorboard/data/ingester.py",
+    "Lib/site-packages/tensorboard/data/proto/__init__.py",
+    "Lib/site-packages/tensorboard/data/proto/data_provider_pb2.py",
+    "Lib/site-packages/tensorboard/data/proto/data_provider_pb2_grpc.py",
+    "Lib/site-packages/tensorboard/data/provider.py",
+    "Lib/site-packages/tensorboard/data/server_ingester.py",
+    "Lib/site-packages/tensorboard/data_compat.py",
+    "Lib/site-packages/tensorboard/dataclass_compat.py",
+    "Lib/site-packages/tensorboard/default.py",
+    "Lib/site-packages/tensorboard/errors.py",
+    "Lib/site-packages/tensorboard/lazy.py",
+    "Lib/site-packages/tensorboard/main.py",
+    "Lib/site-packages/tensorboard/main_lib.py",
+    "Lib/site-packages/tensorboard/manager.py",
+    "Lib/site-packages/tensorboard/notebook.py",
+    "Lib/site-packages/tensorboard/plugin_util.py",
+    "Lib/site-packages/tensorboard/plugins/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/audio/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/audio/audio_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/audio/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/audio/plugin_data_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/audio/summary.py",
+    "Lib/site-packages/tensorboard/plugins/audio/summary_v2.py",
+    "Lib/site-packages/tensorboard/plugins/base_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/core/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/core/core_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/custom_scalar/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/custom_scalar/custom_scalars_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/custom_scalar/layout_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/custom_scalar/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/custom_scalar/summary.py",
+    "Lib/site-packages/tensorboard/plugins/debugger_v2/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/debugger_v2/debug_data_multiplexer.py",
+    "Lib/site-packages/tensorboard/plugins/debugger_v2/debug_data_provider.py",
+    "Lib/site-packages/tensorboard/plugins/debugger_v2/debugger_v2_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/distribution/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/distribution/compressor.py",
+    "Lib/site-packages/tensorboard/plugins/distribution/distributions_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/distribution/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/graph/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/graph/graph_util.py",
+    "Lib/site-packages/tensorboard/plugins/graph/graphs_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/graph/keras_util.py",
+    "Lib/site-packages/tensorboard/plugins/graph/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/histogram/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/histogram/histograms_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/histogram/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/histogram/plugin_data_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/histogram/summary.py",
+    "Lib/site-packages/tensorboard/plugins/histogram/summary_v2.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/_keras.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/api.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/api_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/backend_context.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/download_data.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/error.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/get_experiment.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/hparams_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/hparams_util_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/list_metric_evals.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/list_session_groups.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/metrics.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/plugin_data_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/summary.py",
+    "Lib/site-packages/tensorboard/plugins/hparams/summary_v2.py",
+    "Lib/site-packages/tensorboard/plugins/image/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/image/images_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/image/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/image/plugin_data_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/image/summary.py",
+    "Lib/site-packages/tensorboard/plugins/image/summary_v2.py",
+    "Lib/site-packages/tensorboard/plugins/mesh/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/mesh/mesh_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/mesh/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/mesh/plugin_data_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/mesh/summary.py",
+    "Lib/site-packages/tensorboard/plugins/mesh/summary_v2.py",
+    "Lib/site-packages/tensorboard/plugins/metrics/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/metrics/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/metrics/metrics_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/npmi/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/npmi/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/npmi/npmi_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/npmi/plugin_data_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/pr_curve/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/pr_curve/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/pr_curve/plugin_data_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/pr_curve/pr_curves_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/pr_curve/summary.py",
+    "Lib/site-packages/tensorboard/plugins/profile_redirect/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/profile_redirect/profile_redirect_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/projector/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/projector/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/projector/projector_config_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/projector/projector_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/projector/tf_projector_plugin/index.js",
+    "Lib/site-packages/tensorboard/plugins/projector/tf_projector_plugin/projector_binary.html",
+    "Lib/site-packages/tensorboard/plugins/projector/tf_projector_plugin/projector_binary.js",
+    "Lib/site-packages/tensorboard/plugins/scalar/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/scalar/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/scalar/plugin_data_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/scalar/scalars_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/scalar/summary.py",
+    "Lib/site-packages/tensorboard/plugins/scalar/summary_v2.py",
+    "Lib/site-packages/tensorboard/plugins/text/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/text/metadata.py",
+    "Lib/site-packages/tensorboard/plugins/text/plugin_data_pb2.py",
+    "Lib/site-packages/tensorboard/plugins/text/summary.py",
+    "Lib/site-packages/tensorboard/plugins/text/summary_v2.py",
+    "Lib/site-packages/tensorboard/plugins/text/text_plugin.py",
+    "Lib/site-packages/tensorboard/plugins/text_v2/__init__.py",
+    "Lib/site-packages/tensorboard/plugins/text_v2/text_v2_plugin.py",
+    "Lib/site-packages/tensorboard/program.py",
+    "Lib/site-packages/tensorboard/summary/__init__.py",
+    "Lib/site-packages/tensorboard/summary/_output.py",
+    "Lib/site-packages/tensorboard/summary/_tf/__init__.py",
+    "Lib/site-packages/tensorboard/summary/_tf/summary/__init__.py",
+    "Lib/site-packages/tensorboard/summary/_writer.py",
+    "Lib/site-packages/tensorboard/summary/v1.py",
+    "Lib/site-packages/tensorboard/summary/v2.py",
+    "Lib/site-packages/tensorboard/summary/writer/__init__.py",
+    "Lib/site-packages/tensorboard/summary/writer/event_file_writer.py",
+    "Lib/site-packages/tensorboard/summary/writer/record_writer.py",
+    "Lib/site-packages/tensorboard/uploader/__init__.py",
+    "Lib/site-packages/tensorboard/uploader/auth.py",
+    "Lib/site-packages/tensorboard/uploader/dry_run_stubs.py",
+    "Lib/site-packages/tensorboard/uploader/exporter.py",
+    "Lib/site-packages/tensorboard/uploader/flags_parser.py",
+    "Lib/site-packages/tensorboard/uploader/formatters.py",
+    "Lib/site-packages/tensorboard/uploader/logdir_loader.py",
+    "Lib/site-packages/tensorboard/uploader/proto/__init__.py",
+    "Lib/site-packages/tensorboard/uploader/proto/blob_pb2.py",
+    "Lib/site-packages/tensorboard/uploader/proto/blob_pb2_grpc.py",
+    "Lib/site-packages/tensorboard/uploader/proto/experiment_pb2.py",
+    "Lib/site-packages/tensorboard/uploader/proto/experiment_pb2_grpc.py",
+    "Lib/site-packages/tensorboard/uploader/proto/export_service_pb2.py",
+    "Lib/site-packages/tensorboard/uploader/proto/export_service_pb2_grpc.py",
+    "Lib/site-packages/tensorboard/uploader/proto/scalar_pb2.py",
+    "Lib/site-packages/tensorboard/uploader/proto/scalar_pb2_grpc.py",
+    "Lib/site-packages/tensorboard/uploader/proto/server_info_pb2.py",
+    "Lib/site-packages/tensorboard/uploader/proto/server_info_pb2_grpc.py",
+    "Lib/site-packages/tensorboard/uploader/proto/tensor_pb2.py",
+    "Lib/site-packages/tensorboard/uploader/proto/tensor_pb2_grpc.py",
+    "Lib/site-packages/tensorboard/uploader/proto/write_service_pb2.py",
+    "Lib/site-packages/tensorboard/uploader/proto/write_service_pb2_grpc.py",
+    "Lib/site-packages/tensorboard/uploader/server_info.py",
+    "Lib/site-packages/tensorboard/uploader/upload_tracker.py",
+    "Lib/site-packages/tensorboard/uploader/uploader.py",
+    "Lib/site-packages/tensorboard/uploader/uploader_subcommand.py",
+    "Lib/site-packages/tensorboard/uploader/util.py",
+    "Lib/site-packages/tensorboard/util/__init__.py",
+    "Lib/site-packages/tensorboard/util/encoder.py",
+    "Lib/site-packages/tensorboard/util/grpc_util.py",
+    "Lib/site-packages/tensorboard/util/io_util.py",
+    "Lib/site-packages/tensorboard/util/lazy_tensor_creator.py",
+    "Lib/site-packages/tensorboard/util/op_evaluator.py",
+    "Lib/site-packages/tensorboard/util/platform_util.py",
+    "Lib/site-packages/tensorboard/util/tb_logging.py",
+    "Lib/site-packages/tensorboard/util/tensor_util.py",
+    "Lib/site-packages/tensorboard/util/timing.py",
+    "Lib/site-packages/tensorboard/version.py",
+    "Lib/site-packages/tensorboard/webfiles.zip",
+    ".nonadmin",
+    "Lib/site-packages/tensorboard/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/callbacks.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/encoding.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/linkifier.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/sanitizer.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/version.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/_ihatexml.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/_inputstream.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/_tokenizer.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/_trie/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/_trie/__pycache__/_base.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/_trie/__pycache__/py.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/_utils.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/constants.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/alphabeticalattributes.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/base.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/inject_meta_charset.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/lint.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/optionaltags.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/sanitizer.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/whitespace.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/html5parser.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/serializer.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treeadapters/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treeadapters/__pycache__/genshi.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treeadapters/__pycache__/sax.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/__pycache__/base.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/__pycache__/dom.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/__pycache__/etree.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/__pycache__/etree_lxml.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__pycache__/base.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__pycache__/dom.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__pycache__/etree.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__pycache__/etree_lxml.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__pycache__/genshi.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/webencodings/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/webencodings/__pycache__/labels.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/webencodings/__pycache__/mklabels.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/_vendor/webencodings/__pycache__/x_user_defined.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/assets.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/auth.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/__pycache__/application.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/__pycache__/client_feature_flags.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/__pycache__/empty_path_redirect.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/data_ingester.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/data_provider.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/directory_loader.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/directory_watcher.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/event_accumulator.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/event_file_inspector.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/event_file_loader.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/event_multiplexer.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/io_wrapper.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/plugin_asset_util.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/plugin_event_accumulator.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/plugin_event_multiplexer.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/reservoir.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/tag_types.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/__pycache__/experiment_id.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/__pycache__/experimental_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/__pycache__/http_util.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/__pycache__/json_util.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/__pycache__/path_prefix.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/__pycache__/process_graph.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/backend/__pycache__/security_validator.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/allocation_description_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/api_def_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/attr_value_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/cluster_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/config_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/coordination_config_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/cost_graph_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/cpp_shape_inference_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/debug_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/event_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/full_type_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/function_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/graph_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/meta_graph_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/node_def_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/op_def_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/resource_handle_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/rewriter_config_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/saved_object_graph_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/saver_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/step_stats_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/struct_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/summary_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/tensor_description_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/tensor_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/tensor_shape_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/tfprof_log_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/trackable_object_graph_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/types_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/variable_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/verifier_config_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/proto/__pycache__/versions_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/app.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/compat/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/compat/v1/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/dtypes.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/error_codes.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/errors.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/flags.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/io/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/io/__pycache__/gfile.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/pywrap_tensorflow.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/tensor_shape.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/context.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/data/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/data/experimental/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/data/experimental/__pycache__/base_experiment.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/data/experimental/__pycache__/experiment_from_dev.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/data/experimental/__pycache__/utils.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/data/__pycache__/grpc_provider.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/data/__pycache__/ingester.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/data/proto/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/data/proto/__pycache__/data_provider_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/data/proto/__pycache__/data_provider_pb2_grpc.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/data/__pycache__/provider.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/data/__pycache__/server_ingester.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/data_compat.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/dataclass_compat.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/default.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/errors.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/lazy.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/main.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/main_lib.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/manager.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/notebook.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/plugin_util.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/audio/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/audio/__pycache__/audio_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/audio/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/audio/__pycache__/plugin_data_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/audio/__pycache__/summary.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/audio/__pycache__/summary_v2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/__pycache__/base_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/core/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/core/__pycache__/core_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/custom_scalar/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/custom_scalar/__pycache__/custom_scalars_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/custom_scalar/__pycache__/layout_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/custom_scalar/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/custom_scalar/__pycache__/summary.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/debugger_v2/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/debugger_v2/__pycache__/debug_data_multiplexer.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/debugger_v2/__pycache__/debug_data_provider.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/debugger_v2/__pycache__/debugger_v2_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/distribution/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/distribution/__pycache__/compressor.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/distribution/__pycache__/distributions_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/distribution/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/graph/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/graph/__pycache__/graph_util.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/graph/__pycache__/graphs_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/graph/__pycache__/keras_util.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/graph/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/histogram/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/histogram/__pycache__/histograms_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/histogram/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/histogram/__pycache__/plugin_data_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/histogram/__pycache__/summary.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/histogram/__pycache__/summary_v2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/_keras.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/api.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/api_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/backend_context.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/download_data.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/error.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/get_experiment.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/hparams_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/hparams_util_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/list_metric_evals.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/list_session_groups.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/metrics.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/plugin_data_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/summary.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/summary_v2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/image/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/image/__pycache__/images_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/image/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/image/__pycache__/plugin_data_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/image/__pycache__/summary.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/image/__pycache__/summary_v2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/mesh/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/mesh/__pycache__/mesh_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/mesh/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/mesh/__pycache__/plugin_data_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/mesh/__pycache__/summary.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/mesh/__pycache__/summary_v2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/metrics/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/metrics/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/metrics/__pycache__/metrics_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/npmi/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/npmi/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/npmi/__pycache__/npmi_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/npmi/__pycache__/plugin_data_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/pr_curve/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/pr_curve/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/pr_curve/__pycache__/plugin_data_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/pr_curve/__pycache__/pr_curves_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/pr_curve/__pycache__/summary.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/profile_redirect/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/profile_redirect/__pycache__/profile_redirect_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/projector/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/projector/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/projector/__pycache__/projector_config_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/projector/__pycache__/projector_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/scalar/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/scalar/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/scalar/__pycache__/plugin_data_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/scalar/__pycache__/scalars_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/scalar/__pycache__/summary.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/scalar/__pycache__/summary_v2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/text/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/text/__pycache__/metadata.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/text/__pycache__/plugin_data_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/text/__pycache__/summary.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/text/__pycache__/summary_v2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/text/__pycache__/text_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/text_v2/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/plugins/text_v2/__pycache__/text_v2_plugin.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/program.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/summary/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/summary/__pycache__/_output.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/summary/_tf/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/summary/_tf/summary/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/summary/__pycache__/_writer.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/summary/__pycache__/v1.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/summary/__pycache__/v2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/summary/writer/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/summary/writer/__pycache__/event_file_writer.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/summary/writer/__pycache__/record_writer.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/__pycache__/auth.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/__pycache__/dry_run_stubs.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/__pycache__/exporter.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/__pycache__/flags_parser.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/__pycache__/formatters.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/__pycache__/logdir_loader.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/blob_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/blob_pb2_grpc.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/experiment_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/experiment_pb2_grpc.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/export_service_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/export_service_pb2_grpc.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/scalar_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/scalar_pb2_grpc.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/server_info_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/server_info_pb2_grpc.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/tensor_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/tensor_pb2_grpc.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/write_service_pb2.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/proto/__pycache__/write_service_pb2_grpc.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/__pycache__/server_info.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/__pycache__/upload_tracker.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/__pycache__/uploader.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/__pycache__/uploader_subcommand.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/uploader/__pycache__/util.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/util/__pycache__/__init__.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/util/__pycache__/encoder.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/util/__pycache__/grpc_util.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/util/__pycache__/io_util.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/util/__pycache__/lazy_tensor_creator.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/util/__pycache__/op_evaluator.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/util/__pycache__/platform_util.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/util/__pycache__/tb_logging.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/util/__pycache__/tensor_util.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/util/__pycache__/timing.cpython-38.pyc",
+    "Lib/site-packages/tensorboard/__pycache__/version.cpython-38.pyc",
+    "Scripts/tensorboard-script.py",
+    "Scripts/tensorboard.exe"
+  ],
+  "fn": "tensorboard-2.10.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\raksh\\anaconda_main\\pkgs\\tensorboard-2.10.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "56e44a4d63fad5fe3451939e6cc1aa43",
+  "name": "tensorboard",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\raksh\\anaconda_main\\pkgs\\tensorboard-2.10.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/tensorboard-2.10.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/tensorboard-2.10.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "9ae2277443f1fd1a948bbc562b2d3331956e5320a1cc43a11cdd33e13d2c9279",
+        "sha256_in_prefix": "9ae2277443f1fd1a948bbc562b2d3331956e5320a1cc43a11cdd33e13d2c9279",
+        "size_in_bytes": 29236
+      },
+      {
+        "_path": "site-packages/tensorboard-2.10.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "495707a588efe9c1e2a837d3fc9029cd4ab1b0a90b1eea20c02061337fa16e27",
+        "sha256_in_prefix": "495707a588efe9c1e2a837d3fc9029cd4ab1b0a90b1eea20c02061337fa16e27",
+        "size_in_bytes": 1836
+      },
+      {
+        "_path": "site-packages/tensorboard-2.10.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "398a6b070d20e53cb5f5314c18bc2cd7967e8e15134c5153debc588da6cfbd04",
+        "sha256_in_prefix": "398a6b070d20e53cb5f5314c18bc2cd7967e8e15134c5153debc588da6cfbd04",
+        "size_in_bytes": 49943
+      },
+      {
+        "_path": "site-packages/tensorboard-2.10.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard-2.10.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/tensorboard-2.10.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7f6ff907511a77f322a1dcebd2e64c8ce7baa3680c8d15d72cd462042ac9416e",
+        "sha256_in_prefix": "7f6ff907511a77f322a1dcebd2e64c8ce7baa3680c8d15d72cd462042ac9416e",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "site-packages/tensorboard-2.10.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "155d7b0b01bf45380524e80ff11a8528eb4b76b9be8829b813320d4f16f232cf",
+        "sha256_in_prefix": "155d7b0b01bf45380524e80ff11a8528eb4b76b9be8829b813320d4f16f232cf",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "site-packages/tensorboard-2.10.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e343f8721988b553b0a36173edd440445690bdca7a64a99ef4985c35b1bc77ca",
+        "sha256_in_prefix": "e343f8721988b553b0a36173edd440445690bdca7a64a99ef4985c35b1bc77ca",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/tensorboard/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d0a2a9718913815614db1380f3c6e906942038b1cb9caa77d91a2acb28fdee8a",
+        "sha256_in_prefix": "d0a2a9718913815614db1380f3c6e906942038b1cb9caa77d91a2acb28fdee8a",
+        "size_in_bytes": 4125
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/bleach/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0ad9a2adc496147e6d9fd18ee0e7e2d02001d32510754d53914d3c189f7c1139",
+        "sha256_in_prefix": "0ad9a2adc496147e6d9fd18ee0e7e2d02001d32510754d53914d3c189f7c1139",
+        "size_in_bytes": 3769
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/bleach/callbacks.py",
+        "path_type": "hardlink",
+        "sha256": "2ef7b173fa277056df4edb04808b6c1b3b7eadbb39828a9022bfbc5ad380285b",
+        "sha256_in_prefix": "2ef7b173fa277056df4edb04808b6c1b3b7eadbb39828a9022bfbc5ad380285b",
+        "size_in_bytes": 723
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/bleach/encoding.py",
+        "path_type": "hardlink",
+        "sha256": "6aad3ad88d725d13cf8d98d8cd8e05a0c6240a3040fb440253ec41860ab824c4",
+        "sha256_in_prefix": "6aad3ad88d725d13cf8d98d8cd8e05a0c6240a3040fb440253ec41860ab824c4",
+        "size_in_bytes": 2277
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/bleach/linkifier.py",
+        "path_type": "hardlink",
+        "sha256": "76309b4e4f656383078064fb2cabfba9cd934222c4e12f01f3df407f665a5614",
+        "sha256_in_prefix": "76309b4e4f656383078064fb2cabfba9cd934222c4e12f01f3df407f665a5614",
+        "size_in_bytes": 18879
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/bleach/sanitizer.py",
+        "path_type": "hardlink",
+        "sha256": "d49267c772f9e9d457da801546ffdf53f2746de421f7915d9f25fe0650c3a4d0",
+        "sha256_in_prefix": "d49267c772f9e9d457da801546ffdf53f2746de421f7915d9f25fe0650c3a4d0",
+        "size_in_bytes": 12233
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/bleach/utils.py",
+        "path_type": "hardlink",
+        "sha256": "d0b9e2c15dd8b08c4f64cff2d7b642df84df30ac13c132b7fddd73d13c078614",
+        "sha256_in_prefix": "d0b9e2c15dd8b08c4f64cff2d7b642df84df30ac13c132b7fddd73d13c078614",
+        "size_in_bytes": 627
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/bleach/version.py",
+        "path_type": "hardlink",
+        "sha256": "be5e4da421b18b1acf707ff5e7b9cf2c2bb41d047a9e19f99fe35a644b016cd6",
+        "sha256_in_prefix": "be5e4da421b18b1acf707ff5e7b9cf2c2bb41d047a9e19f99fe35a644b016cd6",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a569d871f67af7034badd40bedba6be3d1548bc3bcc342a1282387b324606064",
+        "sha256_in_prefix": "a569d871f67af7034badd40bedba6be3d1548bc3bcc342a1282387b324606064",
+        "size_in_bytes": 1143
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/_ihatexml.py",
+        "path_type": "hardlink",
+        "sha256": "89f3b017ba57aa6c938485dcddba1673deace0c0decea46b455a7b1700d8505b",
+        "sha256_in_prefix": "89f3b017ba57aa6c938485dcddba1673deace0c0decea46b455a7b1700d8505b",
+        "size_in_bytes": 16728
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/_inputstream.py",
+        "path_type": "hardlink",
+        "sha256": "f8fad206989cd69aa77dd108e8b6aae65c2204e16fcf39fe27acbef013078698",
+        "sha256_in_prefix": "f8fad206989cd69aa77dd108e8b6aae65c2204e16fcf39fe27acbef013078698",
+        "size_in_bytes": 32325
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/_tokenizer.py",
+        "path_type": "hardlink",
+        "sha256": "5af2506b63258b836d4e684b5e45fc272e45716b6da826a20d388ac9ac3c0fe9",
+        "sha256_in_prefix": "5af2506b63258b836d4e684b5e45fc272e45716b6da826a20d388ac9ac3c0fe9",
+        "size_in_bytes": 77028
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/_trie/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9ea7e03bdd74df6f411152794f8a6c57042d8ddda2272117436f97f1cd58c705",
+        "sha256_in_prefix": "9ea7e03bdd74df6f411152794f8a6c57042d8ddda2272117436f97f1cd58c705",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/_trie/_base.py",
+        "path_type": "hardlink",
+        "sha256": "09ac9b63232ba3cb844506236f2dad4de4946ad9d60df5aba1437d37b7adcb9c",
+        "sha256_in_prefix": "09ac9b63232ba3cb844506236f2dad4de4946ad9d60df5aba1437d37b7adcb9c",
+        "size_in_bytes": 1013
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/_trie/py.py",
+        "path_type": "hardlink",
+        "sha256": "ce0ed16521f127c98b9ae23fed510857c0289884ab824bea08fe3bec0817686d",
+        "sha256_in_prefix": "ce0ed16521f127c98b9ae23fed510857c0289884ab824bea08fe3bec0817686d",
+        "size_in_bytes": 1763
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "031009486d797b26ab0a028c9e5530cecd57ea31475ea12f8656043b10059a2b",
+        "sha256_in_prefix": "031009486d797b26ab0a028c9e5530cecd57ea31475ea12f8656043b10059a2b",
+        "size_in_bytes": 4919
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/constants.py",
+        "path_type": "hardlink",
+        "sha256": "2e5fb2ccb53f8dc8f2008fe1e7bce4a99eda416139b79c40e32fe3420a14521c",
+        "sha256_in_prefix": "2e5fb2ccb53f8dc8f2008fe1e7bce4a99eda416139b79c40e32fe3420a14521c",
+        "size_in_bytes": 83464
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/filters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/filters/alphabeticalattributes.py",
+        "path_type": "hardlink",
+        "sha256": "95589973624c09c9578bfe6076ebe6773ad1c6d3b95e8f4e3676c70550acca45",
+        "sha256_in_prefix": "95589973624c09c9578bfe6076ebe6773ad1c6d3b95e8f4e3676c70550acca45",
+        "size_in_bytes": 919
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/filters/base.py",
+        "path_type": "hardlink",
+        "sha256": "cfe214f590188e9b15b2a995b7b92e582eb78d1d7584332be8256bbee6a8f16d",
+        "sha256_in_prefix": "cfe214f590188e9b15b2a995b7b92e582eb78d1d7584332be8256bbee6a8f16d",
+        "size_in_bytes": 286
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/filters/inject_meta_charset.py",
+        "path_type": "hardlink",
+        "sha256": "7a00d75041d79801bde74e31cf42ba00b0e0624bd4ac2daad7961455e3655508",
+        "sha256_in_prefix": "7a00d75041d79801bde74e31cf42ba00b0e0624bd4ac2daad7961455e3655508",
+        "size_in_bytes": 2945
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/filters/lint.py",
+        "path_type": "hardlink",
+        "sha256": "ba95c04ece81cbb728b7ba346e736a475e6c3ead859fa5678efa32de0c8efeb6",
+        "sha256_in_prefix": "ba95c04ece81cbb728b7ba346e736a475e6c3ead859fa5678efa32de0c8efeb6",
+        "size_in_bytes": 3631
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/filters/optionaltags.py",
+        "path_type": "hardlink",
+        "sha256": "f25593ef927468138798f81f9aa4c749f3e93cca74d53f3834abb409179dc5c1",
+        "sha256_in_prefix": "f25593ef927468138798f81f9aa4c749f3e93cca74d53f3834abb409179dc5c1",
+        "size_in_bytes": 10588
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/filters/sanitizer.py",
+        "path_type": "hardlink",
+        "sha256": "5c635277322a0d3687a2dd55fab463d55fd73a8940a49ee7f79b473fd25c80d5",
+        "sha256_in_prefix": "5c635277322a0d3687a2dd55fab463d55fd73a8940a49ee7f79b473fd25c80d5",
+        "size_in_bytes": 26885
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/filters/whitespace.py",
+        "path_type": "hardlink",
+        "sha256": "f1e5aa671778502e33945196ea2c98e9ffb6bae4fca4e09200b737219b7bfede",
+        "sha256_in_prefix": "f1e5aa671778502e33945196ea2c98e9ffb6bae4fca4e09200b737219b7bfede",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/html5parser.py",
+        "path_type": "hardlink",
+        "sha256": "c39859261d1cbc3de0e024b5f7a0e24e6b86a522823187b5192e3afb27ff5994",
+        "sha256_in_prefix": "c39859261d1cbc3de0e024b5f7a0e24e6b86a522823187b5192e3afb27ff5994",
+        "size_in_bytes": 117174
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/serializer.py",
+        "path_type": "hardlink",
+        "sha256": "2b691fa0bc8c3cc14f7ddbac7d1df44abc4d91fd26241f76f8fe7f467b7269a2",
+        "sha256_in_prefix": "2b691fa0bc8c3cc14f7ddbac7d1df44abc4d91fd26241f76f8fe7f467b7269a2",
+        "size_in_bytes": 15747
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treeadapters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d7c87223e6add9a06c74ace9c11c1ae65185d62a6072d693617a14f449f66508",
+        "sha256_in_prefix": "d7c87223e6add9a06c74ace9c11c1ae65185d62a6072d693617a14f449f66508",
+        "size_in_bytes": 650
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treeadapters/genshi.py",
+        "path_type": "hardlink",
+        "sha256": "087dbba40b032a6bb864690052bc2dcbbbb429ab862c26512cf33368edcce6fa",
+        "sha256_in_prefix": "087dbba40b032a6bb864690052bc2dcbbbb429ab862c26512cf33368edcce6fa",
+        "size_in_bytes": 1715
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treeadapters/sax.py",
+        "path_type": "hardlink",
+        "sha256": "04a4bcc284139ca8aa79f7c7b310a152a2f8ab6651ff06f97dcf4c277cd00bcb",
+        "sha256_in_prefix": "04a4bcc284139ca8aa79f7c7b310a152a2f8ab6651ff06f97dcf4c277cd00bcb",
+        "size_in_bytes": 1776
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treebuilders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "032b12272bcf7e290230cb1356f6b1c2480389e10b0f975f47c149200baaee16",
+        "sha256_in_prefix": "032b12272bcf7e290230cb1356f6b1c2480389e10b0f975f47c149200baaee16",
+        "size_in_bytes": 3592
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treebuilders/base.py",
+        "path_type": "hardlink",
+        "sha256": "a1e64d18407e92df746091951f4e606f96bc13b89db3601b630191b150a27969",
+        "sha256_in_prefix": "a1e64d18407e92df746091951f4e606f96bc13b89db3601b630191b150a27969",
+        "size_in_bytes": 14553
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treebuilders/dom.py",
+        "path_type": "hardlink",
+        "sha256": "db6c216f40bbd735c8b1a8b999a9a0eaacc11228a070122f683cb802cc376add",
+        "sha256_in_prefix": "db6c216f40bbd735c8b1a8b999a9a0eaacc11228a070122f683cb802cc376add",
+        "size_in_bytes": 8925
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treebuilders/etree.py",
+        "path_type": "hardlink",
+        "sha256": "11b987c7ec10fb5d4c56e7133ed17b525f76fa640637751dbbf29f0e7f887e19",
+        "sha256_in_prefix": "11b987c7ec10fb5d4c56e7133ed17b525f76fa640637751dbbf29f0e7f887e19",
+        "size_in_bytes": 12824
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treebuilders/etree_lxml.py",
+        "path_type": "hardlink",
+        "sha256": "39acc31d918efeae059d5b380e1b38873ce7d89c0600eb3eadf57c2c0954196e",
+        "sha256_in_prefix": "39acc31d918efeae059d5b380e1b38873ce7d89c0600eb3eadf57c2c0954196e",
+        "size_in_bytes": 14754
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treewalkers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3813ed7354d4e661b2cb5f100ccc4a132604cf4c3115450d8f9bf4f978266216",
+        "sha256_in_prefix": "3813ed7354d4e661b2cb5f100ccc4a132604cf4c3115450d8f9bf4f978266216",
+        "size_in_bytes": 5719
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treewalkers/base.py",
+        "path_type": "hardlink",
+        "sha256": "a2e88eb2e4b3bc8d0a8337563fc3e5c4869236cf5f6a585b8a29c011cfd42096",
+        "sha256_in_prefix": "a2e88eb2e4b3bc8d0a8337563fc3e5c4869236cf5f6a585b8a29c011cfd42096",
+        "size_in_bytes": 7476
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treewalkers/dom.py",
+        "path_type": "hardlink",
+        "sha256": "107c8547c0fc958367c8353d971fc82a2815251c9e7141ae6b498e8bb1c1ba47",
+        "sha256_in_prefix": "107c8547c0fc958367c8353d971fc82a2815251c9e7141ae6b498e8bb1c1ba47",
+        "size_in_bytes": 1413
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treewalkers/etree.py",
+        "path_type": "hardlink",
+        "sha256": "8240f8b5f11f4563ec106be01c72716662995d4bc1cd5546cf7bf90bf30888e1",
+        "sha256_in_prefix": "8240f8b5f11f4563ec106be01c72716662995d4bc1cd5546cf7bf90bf30888e1",
+        "size_in_bytes": 4539
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treewalkers/etree_lxml.py",
+        "path_type": "hardlink",
+        "sha256": "78b79d6e7ea73e396979b89bb165628decbb584a730f0c54dee6f0528b9d06e0",
+        "sha256_in_prefix": "78b79d6e7ea73e396979b89bb165628decbb584a730f0c54dee6f0528b9d06e0",
+        "size_in_bytes": 6345
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/html5lib/treewalkers/genshi.py",
+        "path_type": "hardlink",
+        "sha256": "e03d8f1026799f764ddeabb78cc97dc98ec1f358e7400a414125657da22e61b0",
+        "sha256_in_prefix": "e03d8f1026799f764ddeabb78cc97dc98ec1f358e7400a414125657da22e61b0",
+        "size_in_bytes": 2309
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/webencodings/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a8e04922e3f2ff8072607e96fdb360245faa610d83a14f9d2ac0eee724560978",
+        "sha256_in_prefix": "a8e04922e3f2ff8072607e96fdb360245faa610d83a14f9d2ac0eee724560978",
+        "size_in_bytes": 10579
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/webencodings/labels.py",
+        "path_type": "hardlink",
+        "sha256": "e003bf2b14dd76a1adacbf67b3b9003e36f409c37ac6c088c5b2b7ec763daf71",
+        "sha256_in_prefix": "e003bf2b14dd76a1adacbf67b3b9003e36f409c37ac6c088c5b2b7ec763daf71",
+        "size_in_bytes": 8979
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/webencodings/mklabels.py",
+        "path_type": "hardlink",
+        "sha256": "19821ecb09e968b9cfd064a273c2c55a0774515bcefe5d4d73a62817ef3b47fe",
+        "sha256_in_prefix": "19821ecb09e968b9cfd064a273c2c55a0774515bcefe5d4d73a62817ef3b47fe",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "site-packages/tensorboard/_vendor/webencodings/x_user_defined.py",
+        "path_type": "hardlink",
+        "sha256": "c8ea9649d9a9cad19f52087f67a258803361a1cf81007cb279e4f5e45af8dad3",
+        "sha256_in_prefix": "c8ea9649d9a9cad19f52087f67a258803361a1cf81007cb279e4f5e45af8dad3",
+        "size_in_bytes": 4307
+      },
+      {
+        "_path": "site-packages/tensorboard/assets.py",
+        "path_type": "hardlink",
+        "sha256": "5fb81f72ffa71b81b667af66d5cfbf3604edf6d90e776a4906251b6a2a35a436",
+        "sha256_in_prefix": "5fb81f72ffa71b81b667af66d5cfbf3604edf6d90e776a4906251b6a2a35a436",
+        "size_in_bytes": 1360
+      },
+      {
+        "_path": "site-packages/tensorboard/auth.py",
+        "path_type": "hardlink",
+        "sha256": "f24f987c1a10b51f8ec36adceeb0761aeea2579464ee9d6f9ef77aaf211b9768",
+        "sha256_in_prefix": "f24f987c1a10b51f8ec36adceeb0761aeea2579464ee9d6f9ef77aaf211b9768",
+        "size_in_bytes": 3776
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/application.py",
+        "path_type": "hardlink",
+        "sha256": "505da505abea6c1208d00af49394709610bc062184d93f0a6284fc1d1118c0be",
+        "sha256_in_prefix": "505da505abea6c1208d00af49394709610bc062184d93f0a6284fc1d1118c0be",
+        "size_in_bytes": 23914
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/client_feature_flags.py",
+        "path_type": "hardlink",
+        "sha256": "289d096fb94cbedb6637d438f684483afa231c01ed456888e811419afa31b018",
+        "sha256_in_prefix": "289d096fb94cbedb6637d438f684483afa231c01ed456888e811419afa31b018",
+        "size_in_bytes": 2450
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/empty_path_redirect.py",
+        "path_type": "hardlink",
+        "sha256": "0820c8d62acfc06b7ccb4e2d58339b5d8cc7a480cf3762f1caf35cac55dc6dd6",
+        "sha256_in_prefix": "0820c8d62acfc06b7ccb4e2d58339b5d8cc7a480cf3762f1caf35cac55dc6dd6",
+        "size_in_bytes": 1940
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/data_ingester.py",
+        "path_type": "hardlink",
+        "sha256": "d304d10cc23e82fc982a4d886162e7eb1382fb6d59ea4ed122ab62f861f598c9",
+        "sha256_in_prefix": "d304d10cc23e82fc982a4d886162e7eb1382fb6d59ea4ed122ab62f861f598c9",
+        "size_in_bytes": 10700
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/data_provider.py",
+        "path_type": "hardlink",
+        "sha256": "b9f9189bbae0de65f7306ae269addaba9b8da97b44e7d584912270c48e59b06d",
+        "sha256_in_prefix": "b9f9189bbae0de65f7306ae269addaba9b8da97b44e7d584912270c48e59b06d",
+        "size_in_bytes": 19068
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/directory_loader.py",
+        "path_type": "hardlink",
+        "sha256": "6b5c9ff0128b1825ecceed5a7c6ec7cd2e486e70c21475f939110fa821d32e95",
+        "sha256_in_prefix": "6b5c9ff0128b1825ecceed5a7c6ec7cd2e486e70c21475f939110fa821d32e95",
+        "size_in_bytes": 5657
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/directory_watcher.py",
+        "path_type": "hardlink",
+        "sha256": "d69e5654705b661383483b85338a1df5ced7a32d64f41bf92183738f4471590a",
+        "sha256_in_prefix": "d69e5654705b661383483b85338a1df5ced7a32d64f41bf92183738f4471590a",
+        "size_in_bytes": 10486
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/event_accumulator.py",
+        "path_type": "hardlink",
+        "sha256": "ff42e19ac3d55838eb6163595a110e885d77da9e1fcf34ac6534c19d77764729",
+        "sha256_in_prefix": "ff42e19ac3d55838eb6163595a110e885d77da9e1fcf34ac6534c19d77764729",
+        "size_in_bytes": 31798
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/event_file_inspector.py",
+        "path_type": "hardlink",
+        "sha256": "40503faad7a99e667776318aee731ec64abd4431c496e7cd0e2d16d203c3343a",
+        "sha256_in_prefix": "40503faad7a99e667776318aee731ec64abd4431c496e7cd0e2d16d203c3343a",
+        "size_in_bytes": 15169
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/event_file_loader.py",
+        "path_type": "hardlink",
+        "sha256": "85f5844234e4f872db17d8a2cb66a08e64bd0effd151a55764e0f0aa15d6fe20",
+        "sha256_in_prefix": "85f5844234e4f872db17d8a2cb66a08e64bd0effd151a55764e0f0aa15d6fe20",
+        "size_in_bytes": 11948
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/event_multiplexer.py",
+        "path_type": "hardlink",
+        "sha256": "3e7d7b2862716c2a6815e0904f13cb5f4aef0530cefc78f5d517203278819639",
+        "sha256_in_prefix": "3e7d7b2862716c2a6815e0904f13cb5f4aef0530cefc78f5d517203278819639",
+        "size_in_bytes": 18297
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/io_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "aa8a845e9b98e010707922c46953d8184d97eeec0fcc45aee7fef0cbe48f6b2c",
+        "sha256_in_prefix": "aa8a845e9b98e010707922c46953d8184d97eeec0fcc45aee7fef0cbe48f6b2c",
+        "size_in_bytes": 7862
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/plugin_asset_util.py",
+        "path_type": "hardlink",
+        "sha256": "8093090d20e6ca5481aa3809099b0fc7dfa9bf39d968a81c73cc18a02d4249fc",
+        "sha256_in_prefix": "8093090d20e6ca5481aa3809099b0fc7dfa9bf39d968a81c73cc18a02d4249fc",
+        "size_in_bytes": 3555
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/plugin_event_accumulator.py",
+        "path_type": "hardlink",
+        "sha256": "80bbc7da4ebfb13c1f8f714ab7d5eafcf95923f66ba04be493b46f4e4ce54e89",
+        "sha256_in_prefix": "80bbc7da4ebfb13c1f8f714ab7d5eafcf95923f66ba04be493b46f4e4ce54e89",
+        "size_in_bytes": 28294
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/plugin_event_multiplexer.py",
+        "path_type": "hardlink",
+        "sha256": "f8d36b2582edc5b78c5d5d9e99ae99ee4d80234726808eea2d74cdda6f77c850",
+        "sha256_in_prefix": "f8d36b2582edc5b78c5d5d9e99ae99ee4d80234726808eea2d74cdda6f77c850",
+        "size_in_bytes": 19150
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/reservoir.py",
+        "path_type": "hardlink",
+        "sha256": "32b0dfd43922619fc54a76a94bc5f68908287714aafc5af794a0d75c542db665",
+        "sha256_in_prefix": "32b0dfd43922619fc54a76a94bc5f68908287714aafc5af794a0d75c542db665",
+        "size_in_bytes": 10465
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/event_processing/tag_types.py",
+        "path_type": "hardlink",
+        "sha256": "a6949a22343b913fb06876be80812566450edb9012d12e86a5caf9fdfb0568ef",
+        "sha256_in_prefix": "a6949a22343b913fb06876be80812566450edb9012d12e86a5caf9fdfb0568ef",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/experiment_id.py",
+        "path_type": "hardlink",
+        "sha256": "cee9864fbbf8fa71933663dec8cb732841b676e2876cb1382c940040535927ba",
+        "sha256_in_prefix": "cee9864fbbf8fa71933663dec8cb732841b676e2876cb1382c940040535927ba",
+        "size_in_bytes": 2811
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/experimental_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "3cfcbdde09b799ff3d2f0318496309223220c87528772acdbbf717d159448d9c",
+        "sha256_in_prefix": "3cfcbdde09b799ff3d2f0318496309223220c87528772acdbbf717d159448d9c",
+        "size_in_bytes": 1805
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/http_util.py",
+        "path_type": "hardlink",
+        "sha256": "9b3c2ffca978304123ad894f67137bee41df87377340fc9684103132cf331ff7",
+        "sha256_in_prefix": "9b3c2ffca978304123ad894f67137bee41df87377340fc9684103132cf331ff7",
+        "size_in_bytes": 9997
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/json_util.py",
+        "path_type": "hardlink",
+        "sha256": "65762e2bf2ae38980e88a189cb80584f01b62ad6667c9618cbf1ef4d9a67375c",
+        "sha256_in_prefix": "65762e2bf2ae38980e88a189cb80584f01b62ad6667c9618cbf1ef4d9a67375c",
+        "size_in_bytes": 2417
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/path_prefix.py",
+        "path_type": "hardlink",
+        "sha256": "be783c20a21d446e3a64227022b7aa50511bb7ce41be5a58d8e32acb4dc43a89",
+        "sha256_in_prefix": "be783c20a21d446e3a64227022b7aa50511bb7ce41be5a58d8e32acb4dc43a89",
+        "size_in_bytes": 2742
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/process_graph.py",
+        "path_type": "hardlink",
+        "sha256": "6fd9b2b9c1ed8571754430afff4f81349b4837def03eb996c5b3bebc2fbc2b63",
+        "sha256_in_prefix": "6fd9b2b9c1ed8571754430afff4f81349b4837def03eb996c5b3bebc2fbc2b63",
+        "size_in_bytes": 3037
+      },
+      {
+        "_path": "site-packages/tensorboard/backend/security_validator.py",
+        "path_type": "hardlink",
+        "sha256": "02a2a50319e9f3913941b6800be586b5dcea1df5749e543e1cddd2b493e17598",
+        "sha256_in_prefix": "02a2a50319e9f3913941b6800be586b5dcea1df5749e543e1cddd2b493e17598",
+        "size_in_bytes": 6496
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4105849e1319fdb06945432bfbc550552d1f37bfe0aef4cc8df5ee9bcf61208a",
+        "sha256_in_prefix": "4105849e1319fdb06945432bfbc550552d1f37bfe0aef4cc8df5ee9bcf61208a",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/allocation_description_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "f4950461471a9d8245a5920ee2392cb7da102e41cc0c64f69522d7700995e825",
+        "sha256_in_prefix": "f4950461471a9d8245a5920ee2392cb7da102e41cc0c64f69522d7700995e825",
+        "size_in_bytes": 4809
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/api_def_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "381572c300981e566dbee5261d72ef13630532415a86171a69441077d511cc97",
+        "sha256_in_prefix": "381572c300981e566dbee5261d72ef13630532415a86171a69441077d511cc97",
+        "size_in_bytes": 17009
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/attr_value_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "4bf694d1a5fccf34d0fea79f748b32e6379bd5bc262ffa282545cca27533b0dc",
+        "sha256_in_prefix": "4bf694d1a5fccf34d0fea79f748b32e6379bd5bc262ffa282545cca27533b0dc",
+        "size_in_bytes": 17632
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/cluster_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "13b2d357b03189fdfd011d80fd448877491c2da7f1562332748d408540b01fac",
+        "sha256_in_prefix": "13b2d357b03189fdfd011d80fd448877491c2da7f1562332748d408540b01fac",
+        "size_in_bytes": 5717
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/config_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "8af39a16612fddb9d0b4013e6394e397cf8dc05e21275fbfb8354f538fdf436e",
+        "sha256_in_prefix": "8af39a16612fddb9d0b4013e6394e397cf8dc05e21275fbfb8354f538fdf436e",
+        "size_in_bytes": 83608
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/coordination_config_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "0979bb78095529f8d9fcdb38c2ba9d8a75a1adfc7423040ae6d60a0844b467c1",
+        "sha256_in_prefix": "0979bb78095529f8d9fcdb38c2ba9d8a75a1adfc7423040ae6d60a0844b467c1",
+        "size_in_bytes": 5776
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/cost_graph_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "7b2c22d050776e6883067932e45bf921208fb74c259bf7ba53aa5357387f3647",
+        "sha256_in_prefix": "7b2c22d050776e6883067932e45bf921208fb74c259bf7ba53aa5357387f3647",
+        "size_in_bytes": 18235
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/cpp_shape_inference_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "1c2d52430ed06d76587fe758ec9c2ccf2b21ee2e29e136bb9c423e7e3fbd527d",
+        "sha256_in_prefix": "1c2d52430ed06d76587fe758ec9c2ccf2b21ee2e29e136bb9c423e7e3fbd527d",
+        "size_in_bytes": 10784
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/debug_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "69d604a2fea519e02b81c3f86acc75f12f33053ac06387e30c96c2b94494da73",
+        "sha256_in_prefix": "69d604a2fea519e02b81c3f86acc75f12f33053ac06387e30c96c2b94494da73",
+        "size_in_bytes": 10770
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/event_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "fda985a29469b3e4edb89bb127a5022ed8227744ffc050c18c7656e9bf222a97",
+        "sha256_in_prefix": "fda985a29469b3e4edb89bb127a5022ed8227744ffc050c18c7656e9bf222a97",
+        "size_in_bytes": 25652
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/full_type_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "02722b77a9267702287825245404f6b4c7f3ee124a85c5bc9dfc814d396fd362",
+        "sha256_in_prefix": "02722b77a9267702287825245404f6b4c7f3ee124a85c5bc9dfc814d396fd362",
+        "size_in_bytes": 10861
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/function_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "d728c84f92c3e2560bff82eeaa537ce53bdfdf6416c8caf7b99afae683330eab",
+        "sha256_in_prefix": "d728c84f92c3e2560bff82eeaa537ce53bdfdf6416c8caf7b99afae683330eab",
+        "size_in_bytes": 24934
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/graph_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "5181b769b9faea062009b7b85e81b91fe77dce149c9328498340ab2485b24439",
+        "sha256_in_prefix": "5181b769b9faea062009b7b85e81b91fe77dce149c9328498340ab2485b24439",
+        "size_in_bytes": 4682
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/meta_graph_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "d6ee1bc6a5775202d01711b59ff2e35b4f27e7ad30dab7ae13e74b3369c0f067",
+        "sha256_in_prefix": "d6ee1bc6a5775202d01711b59ff2e35b4f27e7ad30dab7ae13e74b3369c0f067",
+        "size_in_bytes": 46065
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/node_def_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "7cac5697c547a8e6bbaa2ea5e1b5791effffdef5ed6c25120d9917b27498b3c7",
+        "sha256_in_prefix": "7cac5697c547a8e6bbaa2ea5e1b5791effffdef5ed6c25120d9917b27498b3c7",
+        "size_in_bytes": 9347
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/op_def_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "72ad5f6fbf3158fe17d304480f94c6a4c083ac9a34dae486f7d7676d623d39a8",
+        "sha256_in_prefix": "72ad5f6fbf3158fe17d304480f94c6a4c083ac9a34dae486f7d7676d623d39a8",
+        "size_in_bytes": 20537
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/resource_handle_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "0e1ed9ec207dc193ddff51cbf58ede5dfefe189b4b97024df35a59d81a5425c2",
+        "sha256_in_prefix": "0e1ed9ec207dc193ddff51cbf58ede5dfefe189b4b97024df35a59d81a5425c2",
+        "size_in_bytes": 7458
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/rewriter_config_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "203dc2b276e7dfcd495d340ebec85cd4a56f0fd9093ba5d25cb87939c614fbb0",
+        "sha256_in_prefix": "203dc2b276e7dfcd495d340ebec85cd4a56f0fd9093ba5d25cb87939c614fbb0",
+        "size_in_bytes": 35213
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/saved_object_graph_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "e3deaec6c88a3a2d91036ab6f9f1eca91b4d695c06edd6f1cf314b421f4b9202",
+        "sha256_in_prefix": "e3deaec6c88a3a2d91036ab6f9f1eca91b4d695c06edd6f1cf314b421f4b9202",
+        "size_in_bytes": 45055
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/saver_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "093511fe54010c5c37694b8d1aeb38da0cc83be5cdfa4f5c7b6f7e6475ab250a",
+        "sha256_in_prefix": "093511fe54010c5c37694b8d1aeb38da0cc83be5cdfa4f5c7b6f7e6475ab250a",
+        "size_in_bytes": 6028
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/step_stats_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "660705dee28081ff8a6590219b50acdad50bbcc66a886e9663db024451726e9f",
+        "sha256_in_prefix": "660705dee28081ff8a6590219b50acdad50bbcc66a886e9663db024451726e9f",
+        "size_in_bytes": 26667
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/struct_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "1005af16ef4ba8304e35b923f91cd7db6afaefaaafcf90e1eea1c687b5761db2",
+        "sha256_in_prefix": "1005af16ef4ba8304e35b923f91cd7db6afaefaaafcf90e1eea1c687b5761db2",
+        "size_in_bytes": 34288
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/summary_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "e69e33388f2f2567877f65b2be11670d7c54beec2bff8e2638fbe5d93f12dfad",
+        "sha256_in_prefix": "e69e33388f2f2567877f65b2be11670d7c54beec2bff8e2638fbe5d93f12dfad",
+        "size_in_bytes": 25408
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/tensor_description_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "3ea3bdeb3bfe6e125ac45d4ee9348e79aaa4170616f58ca001de0adeef4a5a8c",
+        "sha256_in_prefix": "3ea3bdeb3bfe6e125ac45d4ee9348e79aaa4170616f58ca001de0adeef4a5a8c",
+        "size_in_bytes": 4616
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/tensor_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "5672f00c63d1fe4cc78d6e1d227a071607caa169fe98204616105aa8aca292d1",
+        "sha256_in_prefix": "5672f00c63d1fe4cc78d6e1d227a071607caa169fe98204616105aa8aca292d1",
+        "size_in_bytes": 13376
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/tensor_shape_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "a75f0def47ef36db8447f7d596e2e233f2c59a0bce6822da05e77159a04c3167",
+        "sha256_in_prefix": "a75f0def47ef36db8447f7d596e2e233f2c59a0bce6822da05e77159a04c3167",
+        "size_in_bytes": 4630
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/tfprof_log_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "571d677022d0825595e8d1b105e15ed6a305bac1f6c46a4a02b7b7873f771e0a",
+        "sha256_in_prefix": "571d677022d0825595e8d1b105e15ed6a305bac1f6c46a4a02b7b7873f771e0a",
+        "size_in_bytes": 61125
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/trackable_object_graph_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "5ee39dbeff41a7e7ddcc74160927d99cc584ab7336bc52cc79e5c5adac00d466",
+        "sha256_in_prefix": "5ee39dbeff41a7e7ddcc74160927d99cc584ab7336bc52cc79e5c5adac00d466",
+        "size_in_bytes": 15946
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/types_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "3edf599643c60a3a22ae6298741c99f6ce4a1d0bdd73a0d6b7279ea09131d9a1",
+        "sha256_in_prefix": "3edf599643c60a3a22ae6298741c99f6ce4a1d0bdd73a0d6b7279ea09131d9a1",
+        "size_in_bytes": 11546
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/variable_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "279f4531a4279c938032c0d36c42e42f2dcb4b9156f3f43ae8298ae96c472dda",
+        "sha256_in_prefix": "279f4531a4279c938032c0d36c42e42f2dcb4b9156f3f43ae8298ae96c472dda",
+        "size_in_bytes": 11694
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/verifier_config_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "71f8639c5296c8699680deef7850bdb400589d2ea8c801b6ec661091b4c93927",
+        "sha256_in_prefix": "71f8639c5296c8699680deef7850bdb400589d2ea8c801b6ec661091b4c93927",
+        "size_in_bytes": 3971
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/proto/versions_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "70250e4ae69dc4b22cd999773f8d5621f4e32bff6e19f23bf2c54e2cdc892e1c",
+        "sha256_in_prefix": "70250e4ae69dc4b22cd999773f8d5621f4e32bff6e19f23bf2c54e2cdc892e1c",
+        "size_in_bytes": 3192
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/tensorflow_stub/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "052bc61a681af15a0a7f3aedccd1ff655042adfda5d9c112e1b5136c919e5d85",
+        "sha256_in_prefix": "052bc61a681af15a0a7f3aedccd1ff655042adfda5d9c112e1b5136c919e5d85",
+        "size_in_bytes": 1485
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/tensorflow_stub/app.py",
+        "path_type": "hardlink",
+        "sha256": "eaf319698fb63b9930328a209eabe3559330b5f3d44bc06fc7e143667c7c1573",
+        "sha256_in_prefix": "eaf319698fb63b9930328a209eabe3559330b5f3d44bc06fc7e143667c7c1573",
+        "size_in_bytes": 3715
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/tensorflow_stub/compat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7f26c06d5ddc84b579a55ef9ac6ca01c50ad45f93579fefefbd1294e74e22fc6",
+        "sha256_in_prefix": "7f26c06d5ddc84b579a55ef9ac6ca01c50ad45f93579fefefbd1294e74e22fc6",
+        "size_in_bytes": 3977
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/tensorflow_stub/compat/v1/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "629bb73e40f8826e5f4ad1c85ffe27fbc0a3b8de1013e1586ea833e7229fbe8b",
+        "sha256_in_prefix": "629bb73e40f8826e5f4ad1c85ffe27fbc0a3b8de1013e1586ea833e7229fbe8b",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/tensorflow_stub/dtypes.py",
+        "path_type": "hardlink",
+        "sha256": "815eb0713bdb79c6fafb5837515d2e9da20150908ea6aab64dc25be456bb63d6",
+        "sha256_in_prefix": "815eb0713bdb79c6fafb5837515d2e9da20150908ea6aab64dc25be456bb63d6",
+        "size_in_bytes": 24112
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/tensorflow_stub/error_codes.py",
+        "path_type": "hardlink",
+        "sha256": "6215394b3549541d64169754cccec20b031e4a2ea4f8ff322c64f42e50a54fc8",
+        "sha256_in_prefix": "6215394b3549541d64169754cccec20b031e4a2ea4f8ff322c64f42e50a54fc8",
+        "size_in_bytes": 5809
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/tensorflow_stub/errors.py",
+        "path_type": "hardlink",
+        "sha256": "7d3f071183a9059734f7308cadb8619a1154aedc1cc982c8dfb11d633a45b4c8",
+        "sha256_in_prefix": "7d3f071183a9059734f7308cadb8619a1154aedc1cc982c8dfb11d633a45b4c8",
+        "size_in_bytes": 17819
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/tensorflow_stub/flags.py",
+        "path_type": "hardlink",
+        "sha256": "8a51fcd6ca1170457f8161558624e113316ceaa217471a9e1325b2a82eb7c143",
+        "sha256_in_prefix": "8a51fcd6ca1170457f8161558624e113316ceaa217471a9e1325b2a82eb7c143",
+        "size_in_bytes": 4235
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/tensorflow_stub/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c6bb94a9a1bb87c4e2fb08f90b95443939f0a5e0985f98e5cd2bccdb6d53fb5a",
+        "sha256_in_prefix": "c6bb94a9a1bb87c4e2fb08f90b95443939f0a5e0985f98e5cd2bccdb6d53fb5a",
+        "size_in_bytes": 719
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/tensorflow_stub/io/gfile.py",
+        "path_type": "hardlink",
+        "sha256": "cae806c85f1c413ccf6461034ecc540e70f21e6372f28259862f899bfd8a7951",
+        "sha256_in_prefix": "cae806c85f1c413ccf6461034ecc540e70f21e6372f28259862f899bfd8a7951",
+        "size_in_bytes": 36060
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/tensorflow_stub/pywrap_tensorflow.py",
+        "path_type": "hardlink",
+        "sha256": "b2c5d359d35a37388a0dedcc347913a50c80f0ccfe514dc83870bb9761b157de",
+        "sha256_in_prefix": "b2c5d359d35a37388a0dedcc347913a50c80f0ccfe514dc83870bb9761b157de",
+        "size_in_bytes": 10124
+      },
+      {
+        "_path": "site-packages/tensorboard/compat/tensorflow_stub/tensor_shape.py",
+        "path_type": "hardlink",
+        "sha256": "65690c53a48bc9afa3aa3453c3e61f6f065acca137e1b197cb0af9835ba53614",
+        "sha256_in_prefix": "65690c53a48bc9afa3aa3453c3e61f6f065acca137e1b197cb0af9835ba53614",
+        "size_in_bytes": 34472
+      },
+      {
+        "_path": "site-packages/tensorboard/context.py",
+        "path_type": "hardlink",
+        "sha256": "1cc313623f99bca714de62c98a6ad307fcbb35661e39450f36e491652f4e5926",
+        "sha256_in_prefix": "1cc313623f99bca714de62c98a6ad307fcbb35661e39450f36e491652f4e5926",
+        "size_in_bytes": 4449
+      },
+      {
+        "_path": "site-packages/tensorboard/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "10f32669564cceb36f4939e7d6b1ece34d4723f99f586eedbd3d0c37b33531ea",
+        "sha256_in_prefix": "10f32669564cceb36f4939e7d6b1ece34d4723f99f586eedbd3d0c37b33531ea",
+        "size_in_bytes": 747
+      },
+      {
+        "_path": "site-packages/tensorboard/data/experimental/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6eb3072776769179b1fc737e24996d5634a80c64f0a2b3905119bceac5773039",
+        "sha256_in_prefix": "6eb3072776769179b1fc737e24996d5634a80c64f0a2b3905119bceac5773039",
+        "size_in_bytes": 794
+      },
+      {
+        "_path": "site-packages/tensorboard/data/experimental/base_experiment.py",
+        "path_type": "hardlink",
+        "sha256": "3b2b85a5f0066507815fbbd11ebc442904ab61f8445589a5f8fb817d161f5079",
+        "sha256_in_prefix": "3b2b85a5f0066507815fbbd11ebc442904ab61f8445589a5f8fb817d161f5079",
+        "size_in_bytes": 3319
+      },
+      {
+        "_path": "site-packages/tensorboard/data/experimental/experiment_from_dev.py",
+        "path_type": "hardlink",
+        "sha256": "158490ce5bcbd0a3418d6d5f6cac6cbb358465ed89ea0acbe7af166023e72821",
+        "sha256_in_prefix": "158490ce5bcbd0a3418d6d5f6cac6cbb358465ed89ea0acbe7af166023e72821",
+        "size_in_bytes": 5893
+      },
+      {
+        "_path": "site-packages/tensorboard/data/experimental/utils.py",
+        "path_type": "hardlink",
+        "sha256": "98196c1639c2d683c815b7b51abb8e4065ae7af58e9f73e36accaf3b7006897b",
+        "sha256_in_prefix": "98196c1639c2d683c815b7b51abb8e4065ae7af58e9f73e36accaf3b7006897b",
+        "size_in_bytes": 2544
+      },
+      {
+        "_path": "site-packages/tensorboard/data/grpc_provider.py",
+        "path_type": "hardlink",
+        "sha256": "bacad61e6bcfd71b3c4d7bbb5de120c9709da6ed7a7503f86b70b0ecfe43c0d1",
+        "sha256_in_prefix": "bacad61e6bcfd71b3c4d7bbb5de120c9709da6ed7a7503f86b70b0ecfe43c0d1",
+        "size_in_bytes": 12989
+      },
+      {
+        "_path": "site-packages/tensorboard/data/ingester.py",
+        "path_type": "hardlink",
+        "sha256": "613476418ef836f07c67354f0adfde289ad207445701aa1fc7dcec43ce0f5282",
+        "sha256_in_prefix": "613476418ef836f07c67354f0adfde289ad207445701aa1fc7dcec43ce0f5282",
+        "size_in_bytes": 1488
+      },
+      {
+        "_path": "site-packages/tensorboard/data/proto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/data/proto/data_provider_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "4e737eb88b3d3d209b421dbd66c3f8e70339c6486d79891612c8b51b6dc787e6",
+        "sha256_in_prefix": "4e737eb88b3d3d209b421dbd66c3f8e70339c6486d79891612c8b51b6dc787e6",
+        "size_in_bytes": 92179
+      },
+      {
+        "_path": "site-packages/tensorboard/data/proto/data_provider_pb2_grpc.py",
+        "path_type": "hardlink",
+        "sha256": "306bb1ca1ba551c58e7f85d86ae8232daba461ea4bc2c530724455cae161f13e",
+        "sha256_in_prefix": "306bb1ca1ba551c58e7f85d86ae8232daba461ea4bc2c530724455cae161f13e",
+        "size_in_bytes": 10475
+      },
+      {
+        "_path": "site-packages/tensorboard/data/provider.py",
+        "path_type": "hardlink",
+        "sha256": "21d11f27c904107fc07127293f77edd860d9ff2b895871236934ed7a66cb7ee6",
+        "sha256_in_prefix": "21d11f27c904107fc07127293f77edd860d9ff2b895871236934ed7a66cb7ee6",
+        "size_in_bytes": 35288
+      },
+      {
+        "_path": "site-packages/tensorboard/data/server_ingester.py",
+        "path_type": "hardlink",
+        "sha256": "a580b56ece7397688447a5de0690da014c7ac06b328697e24584b29414776659",
+        "sha256_in_prefix": "a580b56ece7397688447a5de0690da014c7ac06b328697e24584b29414776659",
+        "size_in_bytes": 10833
+      },
+      {
+        "_path": "site-packages/tensorboard/data_compat.py",
+        "path_type": "hardlink",
+        "sha256": "9e52ddad40d7547b3a3a031c2de043456be03455e497a6a0bb39dfaa705d39f6",
+        "sha256_in_prefix": "9e52ddad40d7547b3a3a031c2de043456be03455e497a6a0bb39dfaa705d39f6",
+        "size_in_bytes": 6456
+      },
+      {
+        "_path": "site-packages/tensorboard/dataclass_compat.py",
+        "path_type": "hardlink",
+        "sha256": "387dccc9f9efc106839825154f0b3a2966939b2cfae5bd9064579da37da08789",
+        "sha256_in_prefix": "387dccc9f9efc106839825154f0b3a2966939b2cfae5bd9064579da37da08789",
+        "size_in_bytes": 8610
+      },
+      {
+        "_path": "site-packages/tensorboard/default.py",
+        "path_type": "hardlink",
+        "sha256": "fdd2a346e52d7bc1003f7b52fd3c2584d9258768323e35c4810baff189bef4e1",
+        "sha256_in_prefix": "fdd2a346e52d7bc1003f7b52fd3c2584d9258768323e35c4810baff189bef4e1",
+        "size_in_bytes": 4891
+      },
+      {
+        "_path": "site-packages/tensorboard/errors.py",
+        "path_type": "hardlink",
+        "sha256": "0f5091171bfa873aa1afb09dd31859c7c0fbdab9cb16ee4dcdb27b1242092ddf",
+        "sha256_in_prefix": "0f5091171bfa873aa1afb09dd31859c7c0fbdab9cb16ee4dcdb27b1242092ddf",
+        "size_in_bytes": 4473
+      },
+      {
+        "_path": "site-packages/tensorboard/lazy.py",
+        "path_type": "hardlink",
+        "sha256": "8d0ea70744adddf3bbb579cfe934e126db2e55ec9a11f1a2a7405e87e276dfef",
+        "sha256_in_prefix": "8d0ea70744adddf3bbb579cfe934e126db2e55ec9a11f1a2a7405e87e276dfef",
+        "size_in_bytes": 3555
+      },
+      {
+        "_path": "site-packages/tensorboard/main.py",
+        "path_type": "hardlink",
+        "sha256": "044581c9b803fb54c636f00527f4db7745a200f83a8e3ca622c9dc54714e1aac",
+        "sha256_in_prefix": "044581c9b803fb54c636f00527f4db7745a200f83a8e3ca622c9dc54714e1aac",
+        "size_in_bytes": 1800
+      },
+      {
+        "_path": "site-packages/tensorboard/main_lib.py",
+        "path_type": "hardlink",
+        "sha256": "f9eb7c03e1be97eb26ead478f978c7caaacf65fac9d2cdec93c180db42c8d807",
+        "sha256_in_prefix": "f9eb7c03e1be97eb26ead478f978c7caaacf65fac9d2cdec93c180db42c8d807",
+        "size_in_bytes": 1959
+      },
+      {
+        "_path": "site-packages/tensorboard/manager.py",
+        "path_type": "hardlink",
+        "sha256": "9f061dde7895cc6b7828635e8f1eb3a9fc273eee843ed2e84069345064520c87",
+        "sha256_in_prefix": "9f061dde7895cc6b7828635e8f1eb3a9fc273eee843ed2e84069345064520c87",
+        "size_in_bytes": 16381
+      },
+      {
+        "_path": "site-packages/tensorboard/notebook.py",
+        "path_type": "hardlink",
+        "sha256": "d7a9d80c24663b5af94579ed89ea34964c84171597879fc26e097b17e97c475a",
+        "sha256_in_prefix": "d7a9d80c24663b5af94579ed89ea34964c84171597879fc26e097b17e97c475a",
+        "size_in_bytes": 14704
+      },
+      {
+        "_path": "site-packages/tensorboard/plugin_util.py",
+        "path_type": "hardlink",
+        "sha256": "582f832537e58b1cabae964dee9f3cd91da6b29ad5f852f303414a6505017c73",
+        "sha256_in_prefix": "582f832537e58b1cabae964dee9f3cd91da6b29ad5f852f303414a6505017c73",
+        "size_in_bytes": 7491
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/audio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/audio/audio_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "3d231764f864809f8e4902c23559d54510bf358cfeaa99259e747073d1966ad8",
+        "sha256_in_prefix": "3d231764f864809f8e4902c23559d54510bf358cfeaa99259e747073d1966ad8",
+        "size_in_bytes": 8734
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/audio/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "f7bf71e87944c8b8b2ac826eb40bedd4f57ac40512254810aaf7e84f12246e46",
+        "sha256_in_prefix": "f7bf71e87944c8b8b2ac826eb40bedd4f57ac40512254810aaf7e84f12246e46",
+        "size_in_bytes": 2314
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/audio/plugin_data_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "16fe5253435852d57c71c7d1ef65f76e4a30a18f14cff4a03bc59aaa564f062d",
+        "sha256_in_prefix": "16fe5253435852d57c71c7d1ef65f76e4a30a18f14cff4a03bc59aaa564f062d",
+        "size_in_bytes": 3847
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/audio/summary.py",
+        "path_type": "hardlink",
+        "sha256": "85021aedc428a821a8d0c9e9d20ae3680b890c6025d51287f65afd1f2bb25f37",
+        "sha256_in_prefix": "85021aedc428a821a8d0c9e9d20ae3680b890c6025d51287f65afd1f2bb25f37",
+        "size_in_bytes": 8574
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/audio/summary_v2.py",
+        "path_type": "hardlink",
+        "sha256": "9cbdd655da2bc324f73c4747c53b4314e08e0d9b758e423a221cd5db1e50753e",
+        "sha256_in_prefix": "9cbdd655da2bc324f73c4747c53b4314e08e0d9b758e423a221cd5db1e50753e",
+        "size_in_bytes": 5454
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/base_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "ab213512bbb15091a094575c6f35b8c4c87feaa6e8663ee8d2dce35a1f0e509b",
+        "sha256_in_prefix": "ab213512bbb15091a094575c6f35b8c4c87feaa6e8663ee8d2dce35a1f0e509b",
+        "size_in_bytes": 13568
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/core/core_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "b7a21308c73b9be1adb1f86cea47239b49bdcf4469308992cdaad637f155c871",
+        "sha256_in_prefix": "b7a21308c73b9be1adb1f86cea47239b49bdcf4469308992cdaad637f155c871",
+        "size_in_bytes": 27800
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/custom_scalar/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/custom_scalar/custom_scalars_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "2c9cc32299b0c2e5dea22e77b1212c952ce0c2ec2dcdbc08d994c6678fe43e70",
+        "sha256_in_prefix": "2c9cc32299b0c2e5dea22e77b1212c952ce0c2ec2dcdbc08d994c6678fe43e70",
+        "size_in_bytes": 11863
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/custom_scalar/layout_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "cfa1095e7aa352a317de10c314e8c5849729ed34d558d777ff3b3b716c57d2ce",
+        "sha256_in_prefix": "cfa1095e7aa352a317de10c314e8c5849729ed34d558d777ff3b3b716c57d2ce",
+        "size_in_bytes": 12014
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/custom_scalar/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "e733d5340a7ebe01215583e73cc4e08c36358c9f177163d5cf85e5fde53ff623",
+        "sha256_in_prefix": "e733d5340a7ebe01215583e73cc4e08c36358c9f177163d5cf85e5fde53ff623",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/custom_scalar/summary.py",
+        "path_type": "hardlink",
+        "sha256": "51b5ea7dbf02ed336733c10f9dc214f974c59e00307e5ffb752e3cd6ee73583b",
+        "sha256_in_prefix": "51b5ea7dbf02ed336733c10f9dc214f974c59e00307e5ffb752e3cd6ee73583b",
+        "size_in_bytes": 2886
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/debugger_v2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/debugger_v2/debug_data_multiplexer.py",
+        "path_type": "hardlink",
+        "sha256": "95697c5f7fff6963334e3f3013017c57b8abf63a8b05e3f53bc949e4ed6e32c3",
+        "sha256_in_prefix": "95697c5f7fff6963334e3f3013017c57b8abf63a8b05e3f53bc949e4ed6e32c3",
+        "size_in_bytes": 24911
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/debugger_v2/debug_data_provider.py",
+        "path_type": "hardlink",
+        "sha256": "022c87049a063b1f3fa67d690538548eeddd6c9f8185f7a1dd3880e3c3ca3c0b",
+        "sha256_in_prefix": "022c87049a063b1f3fa67d690538548eeddd6c9f8185f7a1dd3880e3c3ca3c0b",
+        "size_in_bytes": 21459
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/debugger_v2/debugger_v2_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "945f09d5cf998b223e3b4f12d41ee30a818ed885daf11ae553215eed712e2ef5",
+        "sha256_in_prefix": "945f09d5cf998b223e3b4f12d41ee30a818ed885daf11ae553215eed712e2ef5",
+        "size_in_bytes": 20698
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/distribution/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/distribution/compressor.py",
+        "path_type": "hardlink",
+        "sha256": "7d2113e706da3207b01bbe5c4cc22d8542094adc98cd59a944ede36152651d29",
+        "sha256_in_prefix": "7d2113e706da3207b01bbe5c4cc22d8542094adc98cd59a944ede36152651d29",
+        "size_in_bytes": 5441
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/distribution/distributions_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "df029c3da579449594b53d10ed865b47e184e5fd07b86d9dc50067295bbf9eb8",
+        "sha256_in_prefix": "df029c3da579449594b53d10ed865b47e184e5fd07b86d9dc50067295bbf9eb8",
+        "size_in_bytes": 4302
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/distribution/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "6f7b9f8b69229fb70982b2875d08f7003ab7ddfd3cacf9be0d2d4b3ca0d81967",
+        "sha256_in_prefix": "6f7b9f8b69229fb70982b2875d08f7003ab7ddfd3cacf9be0d2d4b3ca0d81967",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/graph/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/graph/graph_util.py",
+        "path_type": "hardlink",
+        "sha256": "b4b780f8907406bf6446d8039af1fedb3cfd858f76586403a20baaaa4cda170c",
+        "sha256_in_prefix": "b4b780f8907406bf6446d8039af1fedb3cfd858f76586403a20baaaa4cda170c",
+        "size_in_bytes": 4791
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/graph/graphs_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "1f26d5f36663357474cfc07a9922d9892e160daf9391db8299707abbbd1e172a",
+        "sha256_in_prefix": "1f26d5f36663357474cfc07a9922d9892e160daf9391db8299707abbbd1e172a",
+        "size_in_bytes": 12734
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/graph/keras_util.py",
+        "path_type": "hardlink",
+        "sha256": "258b9831d6a79c641db1b3b4692d7c9e1db0c3bcdc087ef1261b30e86c241e2e",
+        "sha256_in_prefix": "258b9831d6a79c641db1b3b4692d7c9e1db0c3bcdc087ef1261b30e86c241e2e",
+        "size_in_bytes": 10472
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/graph/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "c05743e5af9174b4bed0af653e55dc0c6e71461794eab17154a0564d877e3cfd",
+        "sha256_in_prefix": "c05743e5af9174b4bed0af653e55dc0c6e71461794eab17154a0564d877e3cfd",
+        "size_in_bytes": 2502
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/histogram/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/histogram/histograms_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "836df199cad16eda420e017bdf5d4a8f2e04feb59e85372733b8131d756fa1e6",
+        "sha256_in_prefix": "836df199cad16eda420e017bdf5d4a8f2e04feb59e85372733b8131d756fa1e6",
+        "size_in_bytes": 5482
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/histogram/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "ecc6e6f9dc4db20bfcb46cf87f8c65e8e07258b5541ed06fbcc9337fbacb6040",
+        "sha256_in_prefix": "ecc6e6f9dc4db20bfcb46cf87f8c65e8e07258b5541ed06fbcc9337fbacb6040",
+        "size_in_bytes": 2288
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/histogram/plugin_data_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "ccbf9f45bc584fa647f4679ac3f3ccc6b143fb22a418670635459c4321ece7ea",
+        "sha256_in_prefix": "ccbf9f45bc584fa647f4679ac3f3ccc6b143fb22a418670635459c4321ece7ea",
+        "size_in_bytes": 2163
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/histogram/summary.py",
+        "path_type": "hardlink",
+        "sha256": "4eda288517b0b923c7357e2d8718e1a0761ec2ad795fc76942b983a0059ad598",
+        "sha256_in_prefix": "4eda288517b0b923c7357e2d8718e1a0761ec2ad795fc76942b983a0059ad598",
+        "size_in_bytes": 9272
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/histogram/summary_v2.py",
+        "path_type": "hardlink",
+        "sha256": "22cee6a51826acd42bc981f6766720fac5f1e7b396e3558f30d0651ecf5b0c0c",
+        "sha256_in_prefix": "22cee6a51826acd42bc981f6766720fac5f1e7b396e3558f30d0651ecf5b0c0c",
+        "size_in_bytes": 12857
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9f184cdebbc6ba4a79657351adfdac229744eb3d3fd37b51f1db39eb2fd2560b",
+        "sha256_in_prefix": "9f184cdebbc6ba4a79657351adfdac229744eb3d3fd37b51f1db39eb2fd2560b",
+        "size_in_bytes": 689
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/_keras.py",
+        "path_type": "hardlink",
+        "sha256": "4bb1752e57227157fb08693ae0e35b24ab72247cf93ba598e77c80e462cba210",
+        "sha256_in_prefix": "4bb1752e57227157fb08693ae0e35b24ab72247cf93ba598e77c80e462cba210",
+        "size_in_bytes": 3829
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/api.py",
+        "path_type": "hardlink",
+        "sha256": "f5c47b00098709e0484ce08702061053c94759b2c99f17d3e3b1f5213878f0c8",
+        "sha256_in_prefix": "f5c47b00098709e0484ce08702061053c94759b2c99f17d3e3b1f5213878f0c8",
+        "size_in_bytes": 4513
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/api_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "d23d6af8a8fb41c14ce0a010116bb4c3b74a9a89721509d89e23ae5acab6c7de",
+        "sha256_in_prefix": "d23d6af8a8fb41c14ce0a010116bb4c3b74a9a89721509d89e23ae5acab6c7de",
+        "size_in_bytes": 48652
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/backend_context.py",
+        "path_type": "hardlink",
+        "sha256": "6d0bb7645233e12e6cc526f4d211a809d9abd0ab7f96c1b9767bcda05f0dbe83",
+        "sha256_in_prefix": "6d0bb7645233e12e6cc526f4d211a809d9abd0ab7f96c1b9767bcda05f0dbe83",
+        "size_in_bytes": 15783
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/download_data.py",
+        "path_type": "hardlink",
+        "sha256": "b547599e36b385770eb271e6b80f1133c0652e911ca7ab69a6cf3620ba16109f",
+        "sha256_in_prefix": "b547599e36b385770eb271e6b80f1133c0652e911ca7ab69a6cf3620ba16109f",
+        "size_in_bytes": 5785
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/error.py",
+        "path_type": "hardlink",
+        "sha256": "e034d26fdb1bda7cffa4200ebe431e38ec6243fdcb82eefe37d31d6dc387fa1d",
+        "sha256_in_prefix": "e034d26fdb1bda7cffa4200ebe431e38ec6243fdcb82eefe37d31d6dc387fa1d",
+        "size_in_bytes": 1057
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/get_experiment.py",
+        "path_type": "hardlink",
+        "sha256": "764bd14be986a778d4bc2d71fdeaa07a2c9e2969fc421e2e0909998eea8f955d",
+        "sha256_in_prefix": "764bd14be986a778d4bc2d71fdeaa07a2c9e2969fc421e2e0909998eea8f955d",
+        "size_in_bytes": 1730
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/hparams_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "733380685c27385e88bd8a97ad5ea29eedd9a34d371271e1015f6d1e00dd348a",
+        "sha256_in_prefix": "733380685c27385e88bd8a97ad5ea29eedd9a34d371271e1015f6d1e00dd348a",
+        "size_in_bytes": 7780
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/hparams_util_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "c2ad686faf8f2d1ad6e51634992aa6f029f53ac18fb21222af7d13d3d5b4cc40",
+        "sha256_in_prefix": "c2ad686faf8f2d1ad6e51634992aa6f029f53ac18fb21222af7d13d3d5b4cc40",
+        "size_in_bytes": 7317
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/list_metric_evals.py",
+        "path_type": "hardlink",
+        "sha256": "87edb9039553d6a8ea84f2102570dc98b9bf921184597c930895ed1afa933879",
+        "sha256_in_prefix": "87edb9039553d6a8ea84f2102570dc98b9bf921184597c930895ed1afa933879",
+        "size_in_bytes": 2140
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/list_session_groups.py",
+        "path_type": "hardlink",
+        "sha256": "41e4349d101b82c01727dca03290b2b4e5749ea33d4bb2486126605d8e7d0e4c",
+        "sha256_in_prefix": "41e4349d101b82c01727dca03290b2b4e5749ea33d4bb2486126605d8e7d0e4c",
+        "size_in_bytes": 27781
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "c0f07d6ee7b40b4f3bdbb733ce6352c16e3edf27c01120577188652ce024fd8e",
+        "sha256_in_prefix": "c0f07d6ee7b40b4f3bdbb733ce6352c16e3edf27c01120577188652ce024fd8e",
+        "size_in_bytes": 4731
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/metrics.py",
+        "path_type": "hardlink",
+        "sha256": "d1e1b3c1e12e9201de639c461c326d5a230bec32080921466df48331bbedd7f1",
+        "sha256_in_prefix": "d1e1b3c1e12e9201de639c461c326d5a230bec32080921466df48331bbedd7f1",
+        "size_in_bytes": 1526
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/plugin_data_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "a5bf954878934a3469096ec13aa72cd1bcbf11a3ff9de9845c6bf198715b8b7f",
+        "sha256_in_prefix": "a5bf954878934a3469096ec13aa72cd1bcbf11a3ff9de9845c6bf198715b8b7f",
+        "size_in_bytes": 12176
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/summary.py",
+        "path_type": "hardlink",
+        "sha256": "f1d13dd22276e3df601f93404f721cc23e524cd9f9fced469aed3d0aaa13ddb9",
+        "sha256_in_prefix": "f1d13dd22276e3df601f93404f721cc23e524cd9f9fced469aed3d0aaa13ddb9",
+        "size_in_bytes": 8326
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/hparams/summary_v2.py",
+        "path_type": "hardlink",
+        "sha256": "f40a93cd020f06bd2577d465a7cf91846c22e16dfd09eb09d71d7b7db8d8c700",
+        "sha256_in_prefix": "f40a93cd020f06bd2577d465a7cf91846c22e16dfd09eb09d71d7b7db8d8c700",
+        "size_in_bytes": 20227
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/image/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/image/images_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "40875b9b68a9b1d4a41cb57593c41b3384593ce5c63d8cc3a59047d5545f4c5c",
+        "sha256_in_prefix": "40875b9b68a9b1d4a41cb57593c41b3384593ce5c63d8cc3a59047d5545f4c5c",
+        "size_in_bytes": 9158
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/image/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "32d3ae6b879cbd86c809d739594e568daf06746cf142075cb1a75ea54d36e58f",
+        "sha256_in_prefix": "32d3ae6b879cbd86c809d739594e568daf06746cf142075cb1a75ea54d36e58f",
+        "size_in_bytes": 2210
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/image/plugin_data_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "abddff37e7cb923672e205554742a9b52e3e7187fafb134baf4fa26476a1010e",
+        "sha256_in_prefix": "abddff37e7cb923672e205554742a9b52e3e7187fafb134baf4fa26476a1010e",
+        "size_in_bytes": 2547
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/image/summary.py",
+        "path_type": "hardlink",
+        "sha256": "d7dadccde6da13ae3355f3514c4c9e832416197e4b14e1b6a1bd015216f13f5c",
+        "sha256_in_prefix": "d7dadccde6da13ae3355f3514c4c9e832416197e4b14e1b6a1bd015216f13f5c",
+        "size_in_bytes": 6045
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/image/summary_v2.py",
+        "path_type": "hardlink",
+        "sha256": "3d3147f58e7467b91492d5b97de5897099c56030501bca31011060f6bade2d32",
+        "sha256_in_prefix": "3d3147f58e7467b91492d5b97de5897099c56030501bca31011060f6bade2d32",
+        "size_in_bytes": 6170
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/mesh/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9f184cdebbc6ba4a79657351adfdac229744eb3d3fd37b51f1db39eb2fd2560b",
+        "sha256_in_prefix": "9f184cdebbc6ba4a79657351adfdac229744eb3d3fd37b51f1db39eb2fd2560b",
+        "size_in_bytes": 689
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/mesh/mesh_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "e822a35e94d74ac43c5f05fac63b199e1c814e42dd8cca54a1eb8525a447578d",
+        "sha256_in_prefix": "e822a35e94d74ac43c5f05fac63b199e1c814e42dd8cca54a1eb8525a447578d",
+        "size_in_bytes": 11219
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/mesh/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "b5866e7896daf456b10e227c2f977f2ee84cee3b7103983f48f30105e1279ce6",
+        "sha256_in_prefix": "b5866e7896daf456b10e227c2f977f2ee84cee3b7103983f48f30105e1279ce6",
+        "size_in_bytes": 4581
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/mesh/plugin_data_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "5dc175bb890b37c0ae0a1d0b9ecd2434ca574fce367d21a0216f2e5f7cae638e",
+        "sha256_in_prefix": "5dc175bb890b37c0ae0a1d0b9ecd2434ca574fce367d21a0216f2e5f7cae638e",
+        "size_in_bytes": 5447
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/mesh/summary.py",
+        "path_type": "hardlink",
+        "sha256": "1b23966e941266e947cbf1113d85b599dcde0b4248bdea029300472f3f86bbe7",
+        "sha256_in_prefix": "1b23966e941266e947cbf1113d85b599dcde0b4248bdea029300472f3f86bbe7",
+        "size_in_bytes": 8160
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/mesh/summary_v2.py",
+        "path_type": "hardlink",
+        "sha256": "e084c12a1802c39de17c88323001581b70a3003acea73c71a8be0259a319aedd",
+        "sha256_in_prefix": "e084c12a1802c39de17c88323001581b70a3003acea73c71a8be0259a319aedd",
+        "size_in_bytes": 7547
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/metrics/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/metrics/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "827973f2e01d0ad198c546c91ce613a24a305df49ea817864496c5e24c8dad67",
+        "sha256_in_prefix": "827973f2e01d0ad198c546c91ce613a24a305df49ea817864496c5e24c8dad67",
+        "size_in_bytes": 771
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/metrics/metrics_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "c57cd924f83b5f2c3984c82eb6f22413df5dc37904c69e72b6411d5bff607544",
+        "sha256_in_prefix": "c57cd924f83b5f2c3984c82eb6f22413df5dc37904c69e72b6411d5bff607544",
+        "size_in_bytes": 22383
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/npmi/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/npmi/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "923b5944099033e19ec2cc8ac54aaf056b5419405dd5e9cfcfc070975f60f95d",
+        "sha256_in_prefix": "923b5944099033e19ec2cc8ac54aaf056b5419405dd5e9cfcfc070975f60f95d",
+        "size_in_bytes": 2053
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/npmi/npmi_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "8fb09e2487695fc450b45b415a404c5d648beb40b5c5d28d2acebae8f105a83a",
+        "sha256_in_prefix": "8fb09e2487695fc450b45b415a404c5d648beb40b5c5d28d2acebae8f105a83a",
+        "size_in_bytes": 9407
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/npmi/plugin_data_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "17cd742b78d0d01cbd77f13d9837ae6a3f3f216db0ac31a7cb5c9214cbfe9af8",
+        "sha256_in_prefix": "17cd742b78d0d01cbd77f13d9837ae6a3f3f216db0ac31a7cb5c9214cbfe9af8",
+        "size_in_bytes": 2082
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/pr_curve/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/pr_curve/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "9ea50a9e1fa03938a9016e6e9021efd9627c37be7f2dabf048b97bdd1fd98fdf",
+        "sha256_in_prefix": "9ea50a9e1fa03938a9016e6e9021efd9627c37be7f2dabf048b97bdd1fd98fdf",
+        "size_in_bytes": 2635
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/pr_curve/plugin_data_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "ec78fdeee85ff043be7d8a9884034b8252652ea8c1b4b580a970fb471d99a322",
+        "sha256_in_prefix": "ec78fdeee85ff043be7d8a9884034b8252652ea8c1b4b580a970fb471d99a322",
+        "size_in_bytes": 2559
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/pr_curve/pr_curves_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "a50932b13ad0a0915ded4721084354e97638294c1da49e6f54fd0ba9a7f9f552",
+        "sha256_in_prefix": "a50932b13ad0a0915ded4721084354e97638294c1da49e6f54fd0ba9a7f9f552",
+        "size_in_bytes": 8992
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/pr_curve/summary.py",
+        "path_type": "hardlink",
+        "sha256": "414cef1ed986b538d3a93631ae2a593ad3fd9e611f0ef15e69197f75efe31092",
+        "sha256_in_prefix": "414cef1ed986b538d3a93631ae2a593ad3fd9e611f0ef15e69197f75efe31092",
+        "size_in_bytes": 22319
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/profile_redirect/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/profile_redirect/profile_redirect_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "91750caa690916bf25e2aa5b03b8e8f335f6c4d22e9724aa8595badaedf80aec",
+        "sha256_in_prefix": "91750caa690916bf25e2aa5b03b8e8f335f6c4d22e9724aa8595badaedf80aec",
+        "size_in_bytes": 1705
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/projector/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "16b385e80a981cdea27a8600aacfba7cf382992cd65df19d6765ebc93b553d5e",
+        "sha256_in_prefix": "16b385e80a981cdea27a8600aacfba7cf382992cd65df19d6765ebc93b553d5e",
+        "size_in_bytes": 2506
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/projector/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "dfa602123b2fda48913f15fa39768926c328533b4e89148e4de81a5863665e18",
+        "sha256_in_prefix": "dfa602123b2fda48913f15fa39768926c328533b4e89148e4de81a5863665e18",
+        "size_in_bytes": 1178
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/projector/projector_config_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "1cf621e0ce3a5b51dc9109d6178d9124b33d928b0926c81ecbd7cbd604eb84af",
+        "sha256_in_prefix": "1cf621e0ce3a5b51dc9109d6178d9124b33d928b0926c81ecbd7cbd604eb84af",
+        "size_in_bytes": 8552
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/projector/projector_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "86b04b4d47fba9346a652a81468337beb3e4ceb2919aabaada3f8b3176bddfc7",
+        "sha256_in_prefix": "86b04b4d47fba9346a652a81468337beb3e4ceb2919aabaada3f8b3176bddfc7",
+        "size_in_bytes": 29420
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/projector/tf_projector_plugin/index.js",
+        "path_type": "hardlink",
+        "sha256": "4e18b58d9547f899014723fb75b48f4b01b22aa3ff6c588a37f3224642acf46f",
+        "sha256_in_prefix": "4e18b58d9547f899014723fb75b48f4b01b22aa3ff6c588a37f3224642acf46f",
+        "size_in_bytes": 988
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/projector/tf_projector_plugin/projector_binary.html",
+        "path_type": "hardlink",
+        "sha256": "346824b3cb562b2a4af8a7fba16af89b310fb1873f1904dd72be5d30e7f1bba8",
+        "sha256_in_prefix": "346824b3cb562b2a4af8a7fba16af89b310fb1873f1904dd72be5d30e7f1bba8",
+        "size_in_bytes": 21249
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/projector/tf_projector_plugin/projector_binary.js",
+        "path_type": "hardlink",
+        "sha256": "c0cb562d6b61fbc6224b12ee029e44d5e58ef1854354339296d5a04d744bee8b",
+        "sha256_in_prefix": "c0cb562d6b61fbc6224b12ee029e44d5e58ef1854354339296d5a04d744bee8b",
+        "size_in_bytes": 1959288
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/scalar/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/scalar/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "1b25c0017a4f74ed8304031f4bcbb99aa0468bf70dd3db5d73f78cb80923fd5a",
+        "sha256_in_prefix": "1b25c0017a4f74ed8304031f4bcbb99aa0468bf70dd3db5d73f78cb80923fd5a",
+        "size_in_bytes": 2118
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/scalar/plugin_data_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "363da87060d7ca43ad82d7fda2bc26d8d321d5071efac84a3271e043ae244ff2",
+        "sha256_in_prefix": "363da87060d7ca43ad82d7fda2bc26d8d321d5071efac84a3271e043ae244ff2",
+        "size_in_bytes": 2114
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/scalar/scalars_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "917763c1a1aa36837bed9578e8c5aa5c9049a4a9adfd10b00114a06ad216c1c4",
+        "sha256_in_prefix": "917763c1a1aa36837bed9578e8c5aa5c9049a4a9adfd10b00114a06ad216c1c4",
+        "size_in_bytes": 6802
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/scalar/summary.py",
+        "path_type": "hardlink",
+        "sha256": "3e2ccea9d660fe4159fe19108c8de437936b4722d9304a13a67cb52a25c0e612",
+        "sha256_in_prefix": "3e2ccea9d660fe4159fe19108c8de437936b4722d9304a13a67cb52a25c0e612",
+        "size_in_bytes": 3998
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/scalar/summary_v2.py",
+        "path_type": "hardlink",
+        "sha256": "1f1bbe20dc691eba6e13aa3f8f8cbe25925084470d3f481f0a1d9778555e6361",
+        "sha256_in_prefix": "1f1bbe20dc691eba6e13aa3f8f8cbe25925084470d3f481f0a1d9778555e6361",
+        "size_in_bytes": 4954
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/text/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/text/metadata.py",
+        "path_type": "hardlink",
+        "sha256": "a2a26b628b8fc4732c536c2ed2ebbac6b63eca00618a66269642555899afd88e",
+        "sha256_in_prefix": "a2a26b628b8fc4732c536c2ed2ebbac6b63eca00618a66269642555899afd88e",
+        "size_in_bytes": 2098
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/text/plugin_data_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "cab407c5dda20ad4a16f7e5bd6ca351e8f921234b9df116a6037508e7be91f20",
+        "sha256_in_prefix": "cab407c5dda20ad4a16f7e5bd6ca351e8f921234b9df116a6037508e7be91f20",
+        "size_in_bytes": 2082
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/text/summary.py",
+        "path_type": "hardlink",
+        "sha256": "279fc212d5e401b480e9e0d06f12966e928ad979ce41e7e17a50bde18f40b325",
+        "sha256_in_prefix": "279fc212d5e401b480e9e0d06f12966e928ad979ce41e7e17a50bde18f40b325",
+        "size_in_bytes": 4440
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/text/summary_v2.py",
+        "path_type": "hardlink",
+        "sha256": "73402f76c203ff05ceecebb235eef97c77b55eeef6ed4b14ca18b148d3a3c0bc",
+        "sha256_in_prefix": "73402f76c203ff05ceecebb235eef97c77b55eeef6ed4b14ca18b148d3a3c0bc",
+        "size_in_bytes": 4933
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/text/text_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "9959d861b1521da19d673d85bd2bdc92133a7ab0c3b84b045b781fa981687d00",
+        "sha256_in_prefix": "9959d861b1521da19d673d85bd2bdc92133a7ab0c3b84b045b781fa981687d00",
+        "size_in_bytes": 10311
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/text_v2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/plugins/text_v2/text_v2_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "16081920f07f902a6d56cf7a81b36d79c678896048de8ef65be8dba39c694c4e",
+        "sha256_in_prefix": "16081920f07f902a6d56cf7a81b36d79c678896048de8ef65be8dba39c694c4e",
+        "size_in_bytes": 6720
+      },
+      {
+        "_path": "site-packages/tensorboard/program.py",
+        "path_type": "hardlink",
+        "sha256": "ee7e3ca98479c0270d2e5509e4f7115ce0eb73d2fb4a16a1a3b11c0654e608c2",
+        "sha256_in_prefix": "ee7e3ca98479c0270d2e5509e4f7115ce0eb73d2fb4a16a1a3b11c0654e608c2",
+        "size_in_bytes": 34795
+      },
+      {
+        "_path": "site-packages/tensorboard/summary/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "61862ff8bbc828002c96d103b6fab6669b6446983ace850c29adcf0ec67c3fea",
+        "sha256_in_prefix": "61862ff8bbc828002c96d103b6fab6669b6446983ace850c29adcf0ec67c3fea",
+        "size_in_bytes": 1347
+      },
+      {
+        "_path": "site-packages/tensorboard/summary/_output.py",
+        "path_type": "hardlink",
+        "sha256": "434af71d6192944fb5a3ba5e3af9eed27c279472879b74f3e9aa671d3a156f3b",
+        "sha256_in_prefix": "434af71d6192944fb5a3ba5e3af9eed27c279472879b74f3e9aa671d3a156f3b",
+        "size_in_bytes": 4335
+      },
+      {
+        "_path": "site-packages/tensorboard/summary/_tf/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9f184cdebbc6ba4a79657351adfdac229744eb3d3fd37b51f1db39eb2fd2560b",
+        "sha256_in_prefix": "9f184cdebbc6ba4a79657351adfdac229744eb3d3fd37b51f1db39eb2fd2560b",
+        "size_in_bytes": 689
+      },
+      {
+        "_path": "site-packages/tensorboard/summary/_tf/summary/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0f734bf50ae7811ce746a2e82c09e7ed0f45aa906ef65e5ac7300e9034670426",
+        "sha256_in_prefix": "0f734bf50ae7811ce746a2e82c09e7ed0f45aa906ef65e5ac7300e9034670426",
+        "size_in_bytes": 7726
+      },
+      {
+        "_path": "site-packages/tensorboard/summary/_writer.py",
+        "path_type": "hardlink",
+        "sha256": "64c713c150aff20b82b6f6953a8f08e2904e7afa892f1a2f0f4075ab420d4fe1",
+        "sha256_in_prefix": "64c713c150aff20b82b6f6953a8f08e2904e7afa892f1a2f0f4075ab420d4fe1",
+        "size_in_bytes": 3966
+      },
+      {
+        "_path": "site-packages/tensorboard/summary/v1.py",
+        "path_type": "hardlink",
+        "sha256": "b9c6edcbb35ca772a0e6fe677cfedca469c32edd6f7b489de28296ef69ad1562",
+        "sha256_in_prefix": "b9c6edcbb35ca772a0e6fe677cfedca469c32edd6f7b489de28296ef69ad1562",
+        "size_in_bytes": 1969
+      },
+      {
+        "_path": "site-packages/tensorboard/summary/v2.py",
+        "path_type": "hardlink",
+        "sha256": "0db4cb327a460ac8f2df37f650b4dc533cad126209b801997a9ab2fc4e4a685b",
+        "sha256_in_prefix": "0db4cb327a460ac8f2df37f650b4dc533cad126209b801997a9ab2fc4e4a685b",
+        "size_in_bytes": 1219
+      },
+      {
+        "_path": "site-packages/tensorboard/summary/writer/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d9a3510f529ca75dd5ace2e06659315594033ad7f327b1bf21db0839cc95f0d6",
+        "sha256_in_prefix": "d9a3510f529ca75dd5ace2e06659315594033ad7f327b1bf21db0839cc95f0d6",
+        "size_in_bytes": 608
+      },
+      {
+        "_path": "site-packages/tensorboard/summary/writer/event_file_writer.py",
+        "path_type": "hardlink",
+        "sha256": "16c025e13fcf8b671039bb66c9f8eec36b7fff419834170abecb0982ee490d01",
+        "sha256_in_prefix": "16c025e13fcf8b671039bb66c9f8eec36b7fff419834170abecb0982ee490d01",
+        "size_in_bytes": 8869
+      },
+      {
+        "_path": "site-packages/tensorboard/summary/writer/record_writer.py",
+        "path_type": "hardlink",
+        "sha256": "dd9427009f0926fbdf7e9b6f87dc529cbe43da145f029b3c7b32dbd8f933508d",
+        "sha256_in_prefix": "dd9427009f0926fbdf7e9b6f87dc529cbe43da145f029b3c7b32dbd8f933508d",
+        "size_in_bytes": 1730
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/auth.py",
+        "path_type": "hardlink",
+        "sha256": "99e61621f44e96a1a66aa815c998f76099b5bd3d3c4b2d8796b4d92a9637c60a",
+        "sha256_in_prefix": "99e61621f44e96a1a66aa815c998f76099b5bd3d3c4b2d8796b4d92a9637c60a",
+        "size_in_bytes": 8913
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/dry_run_stubs.py",
+        "path_type": "hardlink",
+        "sha256": "e5f2916d324f2595ced2948206406621048370f47af41c664ef86053cf888c45",
+        "sha256_in_prefix": "e5f2916d324f2595ced2948206406621048370f47af41c664ef86053cf888c45",
+        "size_in_bytes": 1990
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/exporter.py",
+        "path_type": "hardlink",
+        "sha256": "5ccd36fa9667ed7d13d70af8c587c4ba26f8135d2ab97152b5d982492be79333",
+        "sha256_in_prefix": "5ccd36fa9667ed7d13d70af8c587c4ba26f8135d2ab97152b5d982492be79333",
+        "size_in_bytes": 19413
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/flags_parser.py",
+        "path_type": "hardlink",
+        "sha256": "b1f1ae18968e88d1dffcdf3d1b5a6113bbe2d1dd0b775f6e6c75cce99f14d03d",
+        "sha256_in_prefix": "b1f1ae18968e88d1dffcdf3d1b5a6113bbe2d1dd0b775f6e6c75cce99f14d03d",
+        "size_in_bytes": 7309
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/formatters.py",
+        "path_type": "hardlink",
+        "sha256": "73abe6f9e5d93199dbd68b156c2ef27b2ee67e93628b5cb71d4890e8a588cda4",
+        "sha256_in_prefix": "73abe6f9e5d93199dbd68b156c2ef27b2ee67e93628b5cb71d4890e8a588cda4",
+        "size_in_bytes": 3706
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/logdir_loader.py",
+        "path_type": "hardlink",
+        "sha256": "87c46cb22c152de30dfaf3ba2134a5dae566baee85d97b678c67b8d5d18cd740",
+        "sha256_in_prefix": "87c46cb22c152de30dfaf3ba2134a5dae566baee85d97b678c67b8d5d18cd740",
+        "size_in_bytes": 4426
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/blob_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "2adae1dc0881510bc2f6a7731473b8a2f4bef53034e7241accf4905615bed17f",
+        "sha256_in_prefix": "2adae1dc0881510bc2f6a7731473b8a2f4bef53034e7241accf4905615bed17f",
+        "size_in_bytes": 6286
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/blob_pb2_grpc.py",
+        "path_type": "hardlink",
+        "sha256": "b3d2afbd3286a8e6c5c4e04bcfa92d44ada0e1cf322e2397b7ba7633bd5e8133",
+        "sha256_in_prefix": "b3d2afbd3286a8e6c5c4e04bcfa92d44ada0e1cf322e2397b7ba7633bd5e8133",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/experiment_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "6763b3866cb261bda2709a534c9cc2106ea2654a59533b45bd37bfb89e333b0d",
+        "sha256_in_prefix": "6763b3866cb261bda2709a534c9cc2106ea2654a59533b45bd37bfb89e333b0d",
+        "size_in_bytes": 11969
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/experiment_pb2_grpc.py",
+        "path_type": "hardlink",
+        "sha256": "b3d2afbd3286a8e6c5c4e04bcfa92d44ada0e1cf322e2397b7ba7633bd5e8133",
+        "sha256_in_prefix": "b3d2afbd3286a8e6c5c4e04bcfa92d44ada0e1cf322e2397b7ba7633bd5e8133",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/export_service_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "66d18859700c724e8010cb0cabdfbdf934d471afc248a008c5e2195c3bb5aeb2",
+        "sha256_in_prefix": "66d18859700c724e8010cb0cabdfbdf934d471afc248a008c5e2195c3bb5aeb2",
+        "size_in_bytes": 28243
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/export_service_pb2_grpc.py",
+        "path_type": "hardlink",
+        "sha256": "48c73adc7e12ea6a886a423a7f0b97c93caf3ea7a7e4d47b7296957523ab92ef",
+        "sha256_in_prefix": "48c73adc7e12ea6a886a423a7f0b97c93caf3ea7a7e4d47b7296957523ab92ef",
+        "size_in_bytes": 3981
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/scalar_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "eb34b037fe7ed66cf5b83afca78cbade3ec364cf1a0f99be52a4a977481e5a9f",
+        "sha256_in_prefix": "eb34b037fe7ed66cf5b83afca78cbade3ec364cf1a0f99be52a4a977481e5a9f",
+        "size_in_bytes": 5938
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/scalar_pb2_grpc.py",
+        "path_type": "hardlink",
+        "sha256": "b3d2afbd3286a8e6c5c4e04bcfa92d44ada0e1cf322e2397b7ba7633bd5e8133",
+        "sha256_in_prefix": "b3d2afbd3286a8e6c5c4e04bcfa92d44ada0e1cf322e2397b7ba7633bd5e8133",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/server_info_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "47b338713ecaf86484337fdffc438ab265bed329bcd788a0ca71ffd429469796",
+        "sha256_in_prefix": "47b338713ecaf86484337fdffc438ab265bed329bcd788a0ca71ffd429469796",
+        "size_in_bytes": 19502
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/server_info_pb2_grpc.py",
+        "path_type": "hardlink",
+        "sha256": "b3d2afbd3286a8e6c5c4e04bcfa92d44ada0e1cf322e2397b7ba7633bd5e8133",
+        "sha256_in_prefix": "b3d2afbd3286a8e6c5c4e04bcfa92d44ada0e1cf322e2397b7ba7633bd5e8133",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/tensor_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "10f7f46c19cb2cbb60792884b9d10b7c6220cd0cb89e04e67a03f293bd8f3308",
+        "sha256_in_prefix": "10f7f46c19cb2cbb60792884b9d10b7c6220cd0cb89e04e67a03f293bd8f3308",
+        "size_in_bytes": 6122
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/tensor_pb2_grpc.py",
+        "path_type": "hardlink",
+        "sha256": "b3d2afbd3286a8e6c5c4e04bcfa92d44ada0e1cf322e2397b7ba7633bd5e8133",
+        "sha256_in_prefix": "b3d2afbd3286a8e6c5c4e04bcfa92d44ada0e1cf322e2397b7ba7633bd5e8133",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/write_service_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "11dc63afe3a6238b807971e01e03dd1cba38549d3e133d15745db1147c50c0da",
+        "sha256_in_prefix": "11dc63afe3a6238b807971e01e03dd1cba38549d3e133d15745db1147c50c0da",
+        "size_in_bytes": 52638
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/proto/write_service_pb2_grpc.py",
+        "path_type": "hardlink",
+        "sha256": "cfab7885e652f5b19b4b0b08bbf428c1b50b31170aaf728a90790e9dc1de173d",
+        "sha256_in_prefix": "cfab7885e652f5b19b4b0b08bbf428c1b50b31170aaf728a90790e9dc1de173d",
+        "size_in_bytes": 11314
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/server_info.py",
+        "path_type": "hardlink",
+        "sha256": "70107ebbb6dba1162074dbc5f747e50700d2179959495c39ab16f43e3cdd3d30",
+        "sha256_in_prefix": "70107ebbb6dba1162074dbc5f747e50700d2179959495c39ab16f43e3cdd3d30",
+        "size_in_bytes": 9363
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/upload_tracker.py",
+        "path_type": "hardlink",
+        "sha256": "ca7eddd4696cb4f3654e82f28714c749591abe63750e71d487a5738329ee8709",
+        "sha256_in_prefix": "ca7eddd4696cb4f3654e82f28714c749591abe63750e71d487a5738329ee8709",
+        "size_in_bytes": 13985
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/uploader.py",
+        "path_type": "hardlink",
+        "sha256": "eb535e2ad1864d34b28271a7c65b478bfe85dccca6638da64d1b91d63f739954",
+        "sha256_in_prefix": "eb535e2ad1864d34b28271a7c65b478bfe85dccca6638da64d1b91d63f739954",
+        "size_in_bytes": 46711
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/uploader_subcommand.py",
+        "path_type": "hardlink",
+        "sha256": "b79116494546060ae7d33aaa2cfe0a2a9dccab0e6cebb689ad4afdf9ddf3dc87",
+        "sha256_in_prefix": "b79116494546060ae7d33aaa2cfe0a2a9dccab0e6cebb689ad4afdf9ddf3dc87",
+        "size_in_bytes": 24962
+      },
+      {
+        "_path": "site-packages/tensorboard/uploader/util.py",
+        "path_type": "hardlink",
+        "sha256": "cd2d49c1661905b670f79f3f690b07aa3cf896391be8cb5aa002444acfbfafc7",
+        "sha256_in_prefix": "cd2d49c1661905b670f79f3f690b07aa3cf896391be8cb5aa002444acfbfafc7",
+        "size_in_bytes": 6617
+      },
+      {
+        "_path": "site-packages/tensorboard/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorboard/util/encoder.py",
+        "path_type": "hardlink",
+        "sha256": "319592575ff4b500cfe0ee7e80a0f86a1ebf376fa0611353dc2d8703df52501f",
+        "sha256_in_prefix": "319592575ff4b500cfe0ee7e80a0f86a1ebf376fa0611353dc2d8703df52501f",
+        "size_in_bytes": 3873
+      },
+      {
+        "_path": "site-packages/tensorboard/util/grpc_util.py",
+        "path_type": "hardlink",
+        "sha256": "7a24875cff4e4cb14393fc126899b1b62be4df299f211852403faefc901e32dd",
+        "sha256_in_prefix": "7a24875cff4e4cb14393fc126899b1b62be4df299f211852403faefc901e32dd",
+        "size_in_bytes": 11564
+      },
+      {
+        "_path": "site-packages/tensorboard/util/io_util.py",
+        "path_type": "hardlink",
+        "sha256": "a4873d7dce4190c259210ce266f331f49293661e6d864ecdcbcfd14268cdc609",
+        "sha256_in_prefix": "a4873d7dce4190c259210ce266f331f49293661e6d864ecdcbcfd14268cdc609",
+        "size_in_bytes": 792
+      },
+      {
+        "_path": "site-packages/tensorboard/util/lazy_tensor_creator.py",
+        "path_type": "hardlink",
+        "sha256": "36ffed295aa8f5d92fb86d38f664e36f2d648ed9b5fb54678923928c497586ca",
+        "sha256_in_prefix": "36ffed295aa8f5d92fb86d38f664e36f2d648ed9b5fb54678923928c497586ca",
+        "size_in_bytes": 4492
+      },
+      {
+        "_path": "site-packages/tensorboard/util/op_evaluator.py",
+        "path_type": "hardlink",
+        "sha256": "3cbae319147831f9c621970a9b4612631a7ffd8260486d232ae1e64de6f9ad5c",
+        "sha256_in_prefix": "3cbae319147831f9c621970a9b4612631a7ffd8260486d232ae1e64de6f9ad5c",
+        "size_in_bytes": 3827
+      },
+      {
+        "_path": "site-packages/tensorboard/util/platform_util.py",
+        "path_type": "hardlink",
+        "sha256": "e63af8da4be2e86a91cc5c7a629a27483385620eff44bf834e593a74379f3583",
+        "sha256_in_prefix": "e63af8da4be2e86a91cc5c7a629a27483385620eff44bf834e593a74379f3583",
+        "size_in_bytes": 798
+      },
+      {
+        "_path": "site-packages/tensorboard/util/tb_logging.py",
+        "path_type": "hardlink",
+        "sha256": "2915a0676f5efdfa4ad376c24453f49c5a2a37f2a423446169e194558a8d83c3",
+        "sha256_in_prefix": "2915a0676f5efdfa4ad376c24453f49c5a2a37f2a423446169e194558a8d83c3",
+        "size_in_bytes": 781
+      },
+      {
+        "_path": "site-packages/tensorboard/util/tensor_util.py",
+        "path_type": "hardlink",
+        "sha256": "c89bc4611950ea2f9ea5acd2ac8cc056bf464df818e0009cee9069dac308ab95",
+        "sha256_in_prefix": "c89bc4611950ea2f9ea5acd2ac8cc056bf464df818e0009cee9069dac308ab95",
+        "size_in_bytes": 21802
+      },
+      {
+        "_path": "site-packages/tensorboard/util/timing.py",
+        "path_type": "hardlink",
+        "sha256": "7f6ff0f7c569291d1365d03ef3c905c5e216765e72e841c0fc39fa04e8aca455",
+        "sha256_in_prefix": "7f6ff0f7c569291d1365d03ef3c905c5e216765e72e841c0fc39fa04e8aca455",
+        "size_in_bytes": 3734
+      },
+      {
+        "_path": "site-packages/tensorboard/version.py",
+        "path_type": "hardlink",
+        "sha256": "93ded4aafc9ee00b5a9804f3781d476c5ce6f19aa74099d7d498a3f418e6c168",
+        "sha256_in_prefix": "93ded4aafc9ee00b5a9804f3781d476c5ce6f19aa74099d7d498a3f418e6c168",
+        "size_in_bytes": 745
+      },
+      {
+        "_path": "site-packages/tensorboard/webfiles.zip",
+        "path_type": "hardlink",
+        "sha256": "9ad11e4dd7c6a176894d0ce7ce528fd08899f1402f9463860c92c4e6bef5636d",
+        "sha256_in_prefix": "9ad11e4dd7c6a176894d0ce7ce528fd08899f1402f9463860c92c4e6bef5636d",
+        "size_in_bytes": 4695194
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/callbacks.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/encoding.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/linkifier.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/sanitizer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/bleach/__pycache__/version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/_ihatexml.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/_inputstream.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/_tokenizer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/_trie/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/_trie/__pycache__/_base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/_trie/__pycache__/py.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/constants.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/alphabeticalattributes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/inject_meta_charset.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/lint.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/optionaltags.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/sanitizer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/filters/__pycache__/whitespace.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/html5parser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/__pycache__/serializer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treeadapters/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treeadapters/__pycache__/genshi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treeadapters/__pycache__/sax.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/__pycache__/dom.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/__pycache__/etree.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treebuilders/__pycache__/etree_lxml.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__pycache__/dom.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__pycache__/etree.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__pycache__/etree_lxml.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/html5lib/treewalkers/__pycache__/genshi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/webencodings/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/webencodings/__pycache__/labels.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/webencodings/__pycache__/mklabels.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/_vendor/webencodings/__pycache__/x_user_defined.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/assets.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/auth.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/__pycache__/application.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/__pycache__/client_feature_flags.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/__pycache__/empty_path_redirect.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/data_ingester.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/data_provider.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/directory_loader.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/directory_watcher.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/event_accumulator.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/event_file_inspector.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/event_file_loader.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/event_multiplexer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/io_wrapper.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/plugin_asset_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/plugin_event_accumulator.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/plugin_event_multiplexer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/reservoir.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/event_processing/__pycache__/tag_types.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/__pycache__/experiment_id.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/__pycache__/experimental_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/__pycache__/http_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/__pycache__/json_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/__pycache__/path_prefix.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/__pycache__/process_graph.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/backend/__pycache__/security_validator.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/allocation_description_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/api_def_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/attr_value_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/cluster_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/config_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/coordination_config_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/cost_graph_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/cpp_shape_inference_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/debug_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/event_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/full_type_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/function_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/graph_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/meta_graph_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/node_def_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/op_def_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/resource_handle_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/rewriter_config_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/saved_object_graph_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/saver_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/step_stats_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/struct_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/summary_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/tensor_description_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/tensor_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/tensor_shape_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/tfprof_log_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/trackable_object_graph_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/types_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/variable_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/verifier_config_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/proto/__pycache__/versions_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/app.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/tensorflow_stub/compat/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/tensorflow_stub/compat/v1/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/dtypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/error_codes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/errors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/flags.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/tensorflow_stub/io/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/tensorflow_stub/io/__pycache__/gfile.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/pywrap_tensorflow.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/compat/tensorflow_stub/__pycache__/tensor_shape.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/context.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/data/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/data/experimental/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/data/experimental/__pycache__/base_experiment.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/data/experimental/__pycache__/experiment_from_dev.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/data/experimental/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/data/__pycache__/grpc_provider.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/data/__pycache__/ingester.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/data/proto/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/data/proto/__pycache__/data_provider_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/data/proto/__pycache__/data_provider_pb2_grpc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/data/__pycache__/provider.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/data/__pycache__/server_ingester.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/data_compat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/dataclass_compat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/default.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/errors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/lazy.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/main.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/main_lib.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/manager.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/notebook.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/plugin_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/audio/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/audio/__pycache__/audio_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/audio/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/audio/__pycache__/plugin_data_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/audio/__pycache__/summary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/audio/__pycache__/summary_v2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/__pycache__/base_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/core/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/core/__pycache__/core_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/custom_scalar/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/custom_scalar/__pycache__/custom_scalars_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/custom_scalar/__pycache__/layout_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/custom_scalar/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/custom_scalar/__pycache__/summary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/debugger_v2/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/debugger_v2/__pycache__/debug_data_multiplexer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/debugger_v2/__pycache__/debug_data_provider.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/debugger_v2/__pycache__/debugger_v2_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/distribution/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/distribution/__pycache__/compressor.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/distribution/__pycache__/distributions_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/distribution/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/graph/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/graph/__pycache__/graph_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/graph/__pycache__/graphs_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/graph/__pycache__/keras_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/graph/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/histogram/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/histogram/__pycache__/histograms_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/histogram/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/histogram/__pycache__/plugin_data_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/histogram/__pycache__/summary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/histogram/__pycache__/summary_v2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/_keras.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/api.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/api_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/backend_context.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/download_data.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/error.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/get_experiment.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/hparams_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/hparams_util_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/list_metric_evals.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/list_session_groups.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/metrics.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/plugin_data_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/summary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/hparams/__pycache__/summary_v2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/image/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/image/__pycache__/images_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/image/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/image/__pycache__/plugin_data_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/image/__pycache__/summary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/image/__pycache__/summary_v2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/mesh/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/mesh/__pycache__/mesh_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/mesh/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/mesh/__pycache__/plugin_data_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/mesh/__pycache__/summary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/mesh/__pycache__/summary_v2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/metrics/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/metrics/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/metrics/__pycache__/metrics_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/npmi/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/npmi/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/npmi/__pycache__/npmi_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/npmi/__pycache__/plugin_data_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/pr_curve/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/pr_curve/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/pr_curve/__pycache__/plugin_data_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/pr_curve/__pycache__/pr_curves_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/pr_curve/__pycache__/summary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/profile_redirect/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/profile_redirect/__pycache__/profile_redirect_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/projector/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/projector/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/projector/__pycache__/projector_config_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/projector/__pycache__/projector_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/scalar/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/scalar/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/scalar/__pycache__/plugin_data_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/scalar/__pycache__/scalars_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/scalar/__pycache__/summary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/scalar/__pycache__/summary_v2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/text/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/text/__pycache__/metadata.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/text/__pycache__/plugin_data_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/text/__pycache__/summary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/text/__pycache__/summary_v2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/text/__pycache__/text_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/text_v2/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/plugins/text_v2/__pycache__/text_v2_plugin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/program.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/summary/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/summary/__pycache__/_output.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/summary/_tf/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/summary/_tf/summary/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/summary/__pycache__/_writer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/summary/__pycache__/v1.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/summary/__pycache__/v2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/summary/writer/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/summary/writer/__pycache__/event_file_writer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/summary/writer/__pycache__/record_writer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/__pycache__/auth.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/__pycache__/dry_run_stubs.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/__pycache__/exporter.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/__pycache__/flags_parser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/__pycache__/formatters.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/__pycache__/logdir_loader.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/blob_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/blob_pb2_grpc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/experiment_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/experiment_pb2_grpc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/export_service_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/export_service_pb2_grpc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/scalar_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/scalar_pb2_grpc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/server_info_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/server_info_pb2_grpc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/tensor_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/tensor_pb2_grpc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/write_service_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/proto/__pycache__/write_service_pb2_grpc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/__pycache__/server_info.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/__pycache__/upload_tracker.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/__pycache__/uploader.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/__pycache__/uploader_subcommand.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/uploader/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/util/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/util/__pycache__/encoder.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/util/__pycache__/grpc_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/util/__pycache__/io_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/util/__pycache__/lazy_tensor_creator.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/util/__pycache__/op_evaluator.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/util/__pycache__/platform_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/util/__pycache__/tb_logging.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/util/__pycache__/tensor_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/util/__pycache__/timing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorboard/__pycache__/version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/tensorboard-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/tensorboard.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b6b1f4309dde31af38a80e53954cca5736d9acb56508b05d0261869fa3303a6d",
+  "size": 5623090,
+  "subdir": "noarch",
+  "timestamp": 1664238446000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/tensorboard-2.10.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "2.10.1"
+}
